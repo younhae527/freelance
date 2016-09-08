@@ -21,6 +21,7 @@ a{text-decoration:none;color:#5a5b5d;}
 a:link,a:visited,a:active,a:focus{text-decoration:none;}
 a:hover{text-decoration:underline;}
 .blind {display:block;overflow:hidden;top:-1000em;position:absolute;}
+.clear{content:''; display:block; clear:both;}
 
 /*공통부분*/
 input[type=text], input[type=password] {background:#fff;border:1px solid #c9c9c9;height:20px;padding:0 5px 0 5px;line-height:22px}
