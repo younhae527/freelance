@@ -6,7 +6,7 @@
     .lineMap{ float:right; }
         .lineMap span{ display:inline-block; background:url('../img/sub/common/ico_lineMapArrow.gif') right center no-repeat; padding:0 20px 0 15px; font-size:14px; color:#666; }
         .lineMap span:last-child{ background:none; padding-right:0; }
-.containerInner{ width:1000px; margin:0 auto; position:relative; }
+.containerInner{ width:1000px; margin:0 auto; position:relative; padding-bottom:60px; }
     #topQuick{ position:absolute; right:-56px; bottom:42px; }
 
     /* 서브_커머셜기업금융총괄본부 */
@@ -17,3 +17,16 @@
                 ul.tabTitle00 li a.on, ul.tabTitle00 li a:hover{ background:#696a6c; border:1px solid #696a6c; color:#fff; }
 
         .tabConAll00{ margin-top:13px; }
+            .tab00{ display:none; }
+                table.tabelType01{ width:100%; margin-bottom:26px; }
+                    table.tabelType01 thead th{ font-size:14px; font-weight:bold; color:#000; border-top:1px solid #000; border-bottom:1px solid #999; border-right:1px solid #e0e2e1; padding:18px 0; }
+                    table.tabelType01 thead th.first, table.tabelType01 thead th.last, table.tabelType01 tbody th.last, table.tabelType01 tbody td.last{ border-right:none; }
+                    table.tabelType01 tbody th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; padding:18px 0 18px 18px; text-align:left; }
+                    table.tabelType01 tbody td{ font-size:14px; color:#666; text-align:left; border-right:1px solid #e0e2e1; border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
+                        table.tabelType01 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
+                            table.tabelType01 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left center no-repeat; padding:0 0 7px 15px; float:left; }
+                            table.tabelType01 tbody td ul.tableList01 li{ width:326px; }
+                            table.tabelType01 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
+                            table.tabelType01 tbody td ul.tableList02 li{ width:650px; }
+                    table.tabelType01 tbody tr.last th, table.tabelType01 tbody tr.last td{ border-bottom:1px solid #999; }
+                p.tableSummary{ font-size:14px; color:#666; }

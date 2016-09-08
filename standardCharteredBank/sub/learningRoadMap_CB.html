@@ -71,7 +71,7 @@
                 <!-- //lineMap -->
             </div>
             <!-- //subTitleWrap -->
-            <div class="containerInner" style="height:1000px; background:red;">
+            <div class="containerInner">
                 <div id="topQuick">
                     <a href="#top">
                         <img src="../img/sub/common/ico_topQuick.gif" alt="top" />
@@ -80,51 +80,135 @@
                 <!-- //topQuick -->
                 <div class="tabTableWrap">
                     <ul class="tabTitle00">
-                        <li class="tab01"><a href="#tab01" class="on">연수과정</a></li>
-                        <li class="tab02"><a href="#tab02">직무역량</a></li>
+                        <li class="tab01"><a href="#tab01" onclick="return false;" class="on">연수과정</a></li>
+                        <li class="tab02"><a href="#tab02" onclick="return false;">직무역량</a></li>
                     </ul>
                     <div class="clear"></div>
                     <div class="tabConAll00">
-                        <div id="tab01" class="tab00 tab01" style="display: block;">
-                            <table class="type01" cellpadding="0" cellspacing="0">
+                        <div id="tab01" class="tab00 tab01">
+                            <table class="tabelType01" cellpadding="0" cellspacing="0">
                                 <colgroup>
-                                    <col width="" />
-                                    <col width="" />
-                                    <col width="" />
-                                    <col width="" />
-                                    <col width="" />
-                                    <col width="" />
-                                    <col width="" />
-                                    <col width="" />
+                                    <col width="15%" />
+                                    <col width="15%" />
+                                    <col width="10%" />
+                                    <col width="11%" />
+                                    <col width="10%" />
+                                    <col width="16%" />
+                                    <col width="11%" />
+                                    <col width="14%" />
                                 </colgroup>
                                 <thead>
                                     <tr>
-                                        <th>d</th>
-                                        <th>d</th>
-                                        <th>d</th>
-                                        <th>d</th>
-                                        <th>d</th>
-                                        <th>d</th>
-                                        <th>d</th>
-                                        <th>d</th>
+                                        <th colspan="2" class="first">과정 / 직무</th>
+                                        <th>LC RM</th>
+                                        <th>LC ARM</th>
+                                        <th>CA</th>
+                                        <th>ME/HVSB/MM RM</th>
+                                        <th>MM ARM</th>
+                                        <th class="last">ME/HVSB ARM</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <th rowspan="3">행내<br />Credit Risk<br />과정</th>
+                                        <th>온라인 사전과정</th>
+                                        <td colspan="5"><a href="javascript:;">CSA (Credit Skills Assessment Certification): Part 1 / Module 1~11 (Moody's)</a></td>
+                                        <td class="last">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <th>SC그룹<br />필수 집합 과정</th>
+                                        <td colspan="3"><a href="javascript:;">Corporate Credit Curriculum(CCC-C6)</a></td>
+                                        <td colspan="2"><a href="javascript:;">Credit Risk Curriculum for<br />Commercial Banking(CRC-CB)</a></td>
+                                        <td class="last">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <th>행내 권장 과정</th>
+                                        <td colspan="3">&nbsp;</td>
+                                        <td colspan="2"><a href="javascript:;">Advanced Credit Risk training<br />for CB RM (행내, 집합)</a></td>
+                                        <td class="last">&nbsp;</td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">Basic(기본)</th>
+                                        <td colspan="6" class="last">
+                                            <ul class="tableList tableList01">
+                                                <li><a href="javascript:;">기업회계기초 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">신용분석기초 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">산업분석기초 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">여신심사기초 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">기업재무관리기초 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">IB업무기초 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">기업금융업무의 이해 (KBI, 사이버)</a></li>
+                                                <li><a href="javascript:;">기술금융의 이해 (KIBO, 사이버)</a></li>
+                                                <li><a href="javascript:;">외국환업무 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">RM 실무 초급 (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">파생상품입문 (KBI, 사이버)</a></li>
+                                                <li><a href="javascript:;">민/상법 기초 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">기업금융업무의 이해 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">기술금융기초 (KBI, 통신)</a></li>
+                                            </ul>
+                                            <p>[ME/HVSB RM 필수과정]</p>
+                                            <ul class="tableList tableList02">
+                                                <li><a href="javascript:;">Advanced Trade Workshop for CB (행내, 집합)</a></li>
+                                                <li><a href="javascript:;">Core Cash Management (행내, 집합)</a></li>
+                                                <li><a href="javascript:;">TB Academy Mobile Learning: Module 24개 (행내 모바일 러닝)</a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">Core(핵심)</th>
+                                        <td colspan="6" class="last">
+                                            <ul class="tableList tableList01">
+                                                <li><a href="javascript:;">재무제표분석 (KBI, 사이버)</a></li>
+                                                <li><a href="javascript:;">파생금융상품 이해(KBI,집합)</a></li>
+                                                <li><a href="javascript:;">여신법률 (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">기업가치평가 실무 (KBI, 통신)</a></li>
+                                                <li><a href="javascript:;">신용분석 (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">기업 외환리스크 관리 (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">여신심사 (KBI, 집합)</a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">Advanced(고급)</th>
+                                        <td colspan="6" class="last">
+                                            <ul class="tableList tableList01">
+                                                <li><a href="javascript:;">현금흐름분석과 사례연구 (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">부동산금융 (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">부실기업징후 및 여신사후관리 (KBI, 사이버)</a></li>
+                                                <li><a href="javascript:;">파생금융상품 (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">기업부실예측 (KBI, 집합)</a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th colspan="2">Expert(전문가)</th>
+                                        <td colspan="6" class="last">
+                                            <ul class="tableList tableList02">
+                                                <li><a href="javascript:;">자산유동화 (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">산업분석 (KBI 집합) - 택:중공업, 섬유/화학, 건설업, 식음료, 유통/운송, 전자 등</a></li>
+                                                <li><a href="javascript:;">산업별 여신심사 실무사례 (KBI 집합) - 택:조선/철강, 자동차/기계, 전자/통신, 건설/부동산, 화학/제약)</a></li>
+                                                <li><a href="javascript:;">M&amp;A (KBI, 집합)</a></li>
+                                                <li><a href="javascript:;">기업구조조정 실무 (KBI, 집합)</a></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr class="last">
+                                        <th colspan="2">자격증</th>
+                                        <td colspan="6" class="last">
+                                            <ul class="tableList tableList01">
+                                                <li><a href="javascript:;">파생상품투자권유 자문인력(필수)</a></li>
+                                                <li><a href="javascript:;">여신심사역</a></li>
+                                                <li><a href="javascript:;">신용분석사</a></li>
+                                                <li><a href="javascript:;">기술신용평가사</a></li>
+                                            </ul>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
+                            <p class="tableSummary">※ 과정 신청 및 문의는 각 비즈니스 러닝 담당자에게 연락 바랍니다.(담당자 확인)</p>
                         </div>
                         <!-- //tab01 -->
-                        <div id="tab20" class="tab00 tab20">
+                        <div id="tab02" class="tab00 tab02">
 
                         </div>
                         <!-- //tab20 -->

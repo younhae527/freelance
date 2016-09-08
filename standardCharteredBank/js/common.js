@@ -1,5 +1,5 @@
 
-/* 서브 테이블 탭 스크립트 */
+/* 서브 테이블 탭 게시판 탭 스크립트 */
 $(function(){
 	$(".tabTitle00 li").eq(0).find("a").addClass("on");
 	$(".tabConAll00 .tab00").eq(0).show();
@@ -10,5 +10,4 @@ $(function(){
 		$(this).siblings().find("a").removeClass("on");
 	});
 });
-
 
