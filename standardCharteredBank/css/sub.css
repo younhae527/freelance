@@ -1,0 +1,6 @@
+/* 서브공통 */
+.visual{ width:100%; text-align:center; }
+.subTitleWrap{ width:1000px; margin:0 auto; padding:38px 0 36px; }
+.subTitleWrap:after{ content:''; display:block; clear:both; }
+    p.subTitle{ float:left; font-size:25px; color:#000;
+
