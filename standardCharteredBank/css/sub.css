@@ -8,6 +8,7 @@
         .lineMap span:last-child{ background:none; padding-right:0; }
 .containerInner{ width:1000px; margin:0 auto; position:relative; padding-bottom:60px; }
     #topQuick{ position:absolute; right:-56px; bottom:42px; }
+    #dim{ width:100%; height:100%; background:#000; opacity:0.8; position:fixed; left:0; top:0; display:none; }
 
     /* 서브_커머셜기업금융총괄본부 */
     .tabTableWrap:after{ content:''; display:block; clear:both; }
@@ -16,17 +17,48 @@
                 ul.tabTitle00 li a{ font-size:14px; color:#000; display:block; background:#fff; border:1px solid #e0e2e1; padding:12px 0; text-decoration:none; }
                 ul.tabTitle00 li a.on, ul.tabTitle00 li a:hover{ background:#696a6c; border:1px solid #696a6c; color:#fff; }
 
-        .tabConAll00{ margin-top:13px; }
+        .tabConAll00{ margin-top:13px; position:relative; }
             .tab00{ display:none; }
-                table.tabelType01{ width:100%; margin-bottom:26px; }
-                    table.tabelType01 thead th{ font-size:14px; font-weight:bold; color:#000; border-top:1px solid #000; border-bottom:1px solid #999; border-right:1px solid #e0e2e1; padding:18px 0; }
-                    table.tabelType01 thead th.first, table.tabelType01 thead th.last, table.tabelType01 tbody th.last, table.tabelType01 tbody td.last{ border-right:none; }
-                    table.tabelType01 tbody th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; padding:18px 0 18px 18px; text-align:left; }
-                    table.tabelType01 tbody td{ font-size:14px; color:#666; text-align:left; border-right:1px solid #e0e2e1; border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
-                        table.tabelType01 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
-                            table.tabelType01 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left center no-repeat; padding:0 0 7px 15px; float:left; }
-                            table.tabelType01 tbody td ul.tableList01 li{ width:326px; }
-                            table.tabelType01 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
-                            table.tabelType01 tbody td ul.tableList02 li{ width:650px; }
-                    table.tabelType01 tbody tr.last th, table.tabelType01 tbody tr.last td{ border-bottom:1px solid #999; }
-                p.tableSummary{ font-size:14px; color:#666; }
+                table.tableType01{ width:100%; margin-bottom:26px; border-top:1px solid #000; }
+                    table.tableType01 thead th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; border-right:1px solid #e0e2e1; padding:18px 0; }
+                    table.tableType01 thead th.first, table.tableType01 thead th.last, table.tableType01 tbody th.last, table.tableType01 tbody td.last{ border-right:none; }
+                    table.tableType01 tbody th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; padding:18px 0 18px 18px; text-align:left; }
+                    table.tableType01 tbody td{ font-size:14px; color:#666; text-align:left; border-right:1px solid #e0e2e1; border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
+                        table.tableType01 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
+                            table.tableType01 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left center no-repeat; padding:0 0 7px 15px; float:left; }
+                            table.tableType01 tbody td ul.tableList01 li{ width:326px; }
+                                table.tableType01 tbody td ul.tableList li a{ display:block; color:#666; }
+                                table.tableType01 tbody td ul.tableList li a:hover, table.tableType01 tbody td ul.tableList li a.on{ color:#3d90bf; text-decoration:underline; }
+                            table.tableType01 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
+                            table.tableType01 tbody td ul.tableList02 li{ width:650px; }
+
+                        .layerview{ width:640px; height:830px; border:1px solid #000; position:absolute; left:50%; top:50%; z-index:10; margin:-445px 0 0 -350px; background:#fff; padding:30px; }
+                            .layerTitle{ position:relative; font-size:18px; color:#565656; }
+                                a.closeLayer{ position:absolute; right:0; top:0; }
+                            .layerContentWrap{ height:700px; margin-top:30px; overflow-y:auto; }
+                            .buttonCenter{ text-align:center; margin:20px 0 30px; }
+                                .buttonCenter a{ width:150px; padding:17px 0; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; }
+
+                    table.tableType01 tbody tr.last th, table.tableType01 tbody tr.last td{ border-bottom:1px solid #999; }
+                p.tableSummary{ font-size:14px; color:#666; margin-bottom:5px; }
+
+    /* 서브_리케일금융총괄본부 */
+    .subTab ul { background:#f7f7f7; margin-bottom:30px; padding:25px 15px 25px 30px; }
+    .subTab ul:after { content:""; display:block; clear:both; }
+    .subTab ul li { float:left; font-size:15px; }
+    .subTab ul li a { color:#666666; display:block;padding:0 20px; background:url('../img/sub/subTabBlit.gif') no-repeat right 0 ; }
+    .subTab ul li a.on { color:#007db5; font-weight:bold; }
+    .subTab ul li a.first { padding-left:0; }
+    .subTab ul li a.last { background:none; }
+    .tableTit { font-size:18px; font-weight:bold; color:#000000; margin-bottom:10px; padding-left:32px;padding-bottom:1px; background:url('../img/sub/tableBlit.gif') no-repeat left 0 ; }
+
+                    table.tabelType02{ width:100%; margin-bottom:26px; border-top:1px solid #000000; }
+                        table.tabelType02 tbody th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; padding:18px 0 18px 18px; text-align:left; }
+                        table.tabelType02 tbody td{ font-size:14px; color:#666; text-align:left;  border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
+                            table.tabelType02 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
+                                table.tabelType02 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left center no-repeat; padding:0 0 7px 15px; float:left; }
+                                table.tabelType02 tbody td ul.tableList li a:hover { color:#007db5; }
+    							table.tabelType02 tbody td ul.tableList01 li{ width:326px; }
+                                table.tabelType02 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
+                                table.tabelType02 tbody td ul.tableList02 li{ width:650px; }
+                        table.tabelType02 tbody tr.last th, table.tabelType01 tbody tr.last td{ border-bottom:1px solid #999; }

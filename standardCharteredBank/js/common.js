@@ -11,3 +11,15 @@ $(function(){
 	});
 });
 
+$(function(){
+    $(".tableType01 td .layerview").css("display","none");
+    $(".tableType01 td a").click(function(){
+        $(this).siblings(".layerview").css("display","block");
+        $("#dim").css("display","block");
+    });
+    $(".closeLayer").click(function(){
+        $(".layerview").css("display","none");
+        $("#dim").css("display","none");
+    });
+});
+
