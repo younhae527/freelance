@@ -13,8 +13,8 @@ $(function(){
 
 /* 서브 컨텐츠 레이어팝업 */
 $(function(){
-    $(".tableType01 td .layerview").css("display","none");
-    $(".tableType01 td a.listTitle").click(function(){
+    $(".layerview").css("display","none");
+    $(".listTitle").click(function(){
         $(this).siblings(".layerview").css("display","block");
         $("#dim").css("display","block");
     });
@@ -26,24 +26,27 @@ $(function(){
 
 /* 서브 컨텐츠 탭 스크립트 */
 $(document).ready(function(){
+
+
 	$(".subTabContWrap > div").hide();
 	$(".subTabCont00").show();
-	$(".subTab li").click(function(event) {
 
+	$(".subTab li").click(function(event) {
 		$(".tab00").css("display","block");
+		$(".subTabContWrap > div").hide();
 		var i = $(this).index();
 
 		console.log(i);  // 0번째
 		console.log($(".subTabCont0"+i));
 
-		$(".subTabContWrap > div").hide();
 		$(".subTabCont0"+i).show();
-
+		
 
 		//탭 불들어오기
 		$(".subTab li").removeClass("on");
 		$(this).addClass("on");
 	});
 });
+
 
 
