@@ -42,7 +42,7 @@
                     table.tableType01 tbody tr.last th, table.tableType01 tbody tr.last td{ border-bottom:1px solid #999; }
                 p.tableSummary{ font-size:14px; color:#666; margin-bottom:5px; }
 
-    /* 서브_리케일금융총괄본부 */
+    /* 서브_리테일금융총괄본부 */
     .subTab ul { background:#f7f7f7; margin-bottom:30px; padding:25px 15px 25px 30px; }
     .subTab ul:after { content:""; display:block; clear:both; }
     .subTab ul li { float:left; font-size:15px; }
