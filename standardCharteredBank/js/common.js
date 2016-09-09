@@ -23,3 +23,19 @@ $(function(){
     });
 });
 
+/* 서브 컨텐츠 탭 스크립트 */
+$(function(){
+	$(".subTabContWrap > div").hide();
+	$(".subTab li").click(function(event) {
+
+		$(".subTabContWrap > div").hide();
+		var i = $(this).index();
+
+		console.log(i);  // 0번째
+		console.log($(".subTabCont0"+i));
+
+		$(".subTabCont00").hide();
+		$(".subTabCont0"+i).show();
+	});
+});
+
