@@ -26,17 +26,17 @@ $(function(){
 
 /* 서브 컨텐츠 탭 스크립트 */
 $(document).ready(function(){
-
 	$(".subTabContWrap > div").hide();
+	$(".subTabCont00").show();
 	$(".subTab li").click(function(event) {
 
-		$(".subTabContWrap > div").hide();
+		$(".tab00").css("display","block");
 		var i = $(this).index();
 
 		console.log(i);  // 0번째
 		console.log($(".subTabCont0"+i));
 
-		$(".subTabCont00").hide();
+		$(".subTabContWrap > div").hide();
 		$(".subTabCont0"+i).show();
 
 
@@ -44,20 +44,6 @@ $(document).ready(function(){
 		$(".subTab li").removeClass("on");
 		$(this).addClass("on");
 	});
-});
-
-$(function(){
-
-	$(".tableList li .layerview").css("display","none");
-	$(".tableList li").click(function(event) {
-        $(this).children(".layerview").css("display","block");
-        $("#dim").css("display","block");
-	});
-
-	$(".closeLayer").click(function(){
-        $(".tableList li .layerview").css("display","none");
-        $("#dim").css("display","none");
-    });
 });
 
 
