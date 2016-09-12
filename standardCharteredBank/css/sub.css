@@ -28,12 +28,13 @@
                         table.tableType01 tbody td a.listTitle{ display:block; color:#666; }
                         table.tableType01 tbody td a.listTitle:hover, table.tableType01 tbody td a.listTitle.on{ display:block; color:#3d90bf; }
                         table.tableType01 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
-                            table.tableType01 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left center no-repeat; padding:0 0 7px 15px; float:left; }
+                            table.tableType01 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left 7px no-repeat; padding:0 0 7px 15px; float:left; }
                             table.tableType01 tbody td ul.tableList01 li{ width:326px; }
                                 table.tableType01 tbody td ul.tableList li a{ display:block; color:#666; }
                                 table.tableType01 tbody td ul.tableList li a.listTitle:hover, table.tableType01 tbody td ul.tableList li a.listTitle.on{ color:#3d90bf; text-decoration:underline; }
                             table.tableType01 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
                             table.tableType01 tbody td ul.tableList02 li{ width:650px; }
+                            table.tableType01 tbody td ul.tableList03 li{ clear:both; }
 
                         .layerview{ width:640px; height:830px; border:1px solid #000; position:absolute; left:50%; top:50%; z-index:10; margin:-445px 0 0 -350px; background:#fff; padding:30px; }
                             .layerTitle{ position:relative; font-size:18px; color:#565656; }
