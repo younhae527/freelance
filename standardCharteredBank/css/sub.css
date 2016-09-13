@@ -1,6 +1,5 @@
 /* 서브공통 */
-.visual{ width:100%; text-align:center; }
-    .visual img{ width:100%; }
+.visual{ width:100%; text-align:center; background:url('../img/sub/learningRoadMap_Visual.gif') center top no-repeat; background-size:100% 200px; font-size:40px; color:#fff; padding:77px 0; }
 .subTitleWrap{ width:1000px; margin:0 auto; padding:38px 0 36px; }
 .subTitleWrap:after{ content:''; display:block; clear:both; }
     p.subTitle{ float:left; font-size:25px; color:#000; }
