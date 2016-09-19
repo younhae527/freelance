@@ -38,11 +38,13 @@ $(function(){
 	$(".siteMaponBtn").click(function(){
 		$(".siteMap").show();	
         $("#dim").css("display","block");
+        $(".gnb > a").addClass('on');
 	});
 
 	$(".siteMapoffBtn").click(function(){
 		$(".siteMap").hide();	
         $("#dim").css("display","none");
+        $(".gnb > a").removeClass('on');
 	});
 
 

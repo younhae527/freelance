@@ -45,14 +45,20 @@
 				.smarLearningPop.on { display:block; }
 				.smarLearningPopX { position:absolute; right:24px; top:28px; }
 				.smarLearningPop ul { width:278px; margin:115px auto; }
-				.smarLearningPop ul li a { color:#fff; display:block; padding:19px 25px; font-size:25px; text-decoration:none; font-weight:bold; }
-				.smarLearningPop ul li.last a { font-weight:normal; font-size:17px; }
+				.smarLearningPop ul li { line-height:40px; }
+				.smarLearningPop ul li a { color:#fff; display:block; padding:10px 25px; font-size:25px; text-decoration:none; font-weight:bold; }
+				.smarLearningPop ul li.last a { font-size:17px; }
 				.smarLearningPop ul li a:hover { color:#00cbec; font-weight:bold; background:url("../img/main/smarLearningPopList_hover.png") no-repeat 0 0;; }
 
 				.siteMap { z-index:999;position:absolute; left:50%; top:10%; width:1000px; margin-left:-500px; padding:70px 87px 70px 70px; background:#fff; }
 				.siteMap h1 { color:#000; font-size:28px; margin-bottom:50px; }
-				.siteMap h1 span { color:#666666; font-size:14px;font-weight:normal; }
-				.siteMapoffBtn { position:absolute; right:24px; top:28px; }
+				.siteMap h1 span { color:#666666; font-size:14px; margin-left:25px; font-weight:normal; }
+				.siteMapoffBtn { position:absolute; right:85px; top:50px; }
+				.siteMap table { width:100%; }
 				.siteMap table tr { width:100%; border-top:1px solid #dadada; }
 				.siteMap table tr th,.siteMap table tr td { padding:35px 0; }
+				.siteMap table tr th { width:180px; text-align:left; font-size:18px; font-weight:bold; }
+				.siteMap table tr td { font-size:14px; color:#666; }
+				.siteMap table tr td a { margin-right:25px; }
+				.siteMap table tr td a:hover { color:#449ac9; text-decoration:underline;}
 				 

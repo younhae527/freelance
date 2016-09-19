@@ -21,7 +21,8 @@
         .logo{ float:left; padding:17px 0 19px; }
             .logo a{ display:block; }
         .gnb{ float:right; padding:17px 0 14px; }
-            .gnb a{ display:block; }
+            .gnb a{ display:block; width:52px; height:52px; background:url('../img/common/btn_gnb.gif') left top no-repeat; }
+            .gnb a.on, .gnb a:hover{ background:url('../img/common/btn_gnb_on.gif') left top no-repeat; }
 
 /* footer */
 .footerInner{ width:1000px; margin:0 auto; padding:34px 0; }
