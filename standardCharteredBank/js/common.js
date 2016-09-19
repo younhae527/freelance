@@ -1,3 +1,14 @@
+/* 메인하단 배너 슬라이드 */
+$(document).ready(function(){
+  $('.banner_slider').bxSlider({
+    auto: false,
+    displaySlideQty: 1,
+    moveSlideQty: 1,
+    nextText:'',
+    prevText:'',
+    pager: false
+  });
+});
 
 /* 서브 테이블 탭 게시판 탭 스크립트 */
 $(function(){
@@ -26,8 +37,6 @@ $(function(){
 
 /* 서브 컨텐츠 탭 스크립트 */
 $(document).ready(function(){
-
-
 	$(".subTabContWrap > div").hide();
 	$(".subTabCont00").show();
 
