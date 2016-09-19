@@ -1,4 +1,4 @@
-.main_containerInnerWrap{ width:1000px; margin:0 auto; }
+.main_containerInnerWrap{ position:relative; width:1000px; margin:0 auto; }
     .main_containerInner{ border:1px solid #dfe2e4; margin:15px 0; }
     .main_containerInner:after{ content:''; display:block; clear:both; }
         .mainMenu{ width:165px; height:500px; float:left; border-right:1px solid #dfe2e4; }
@@ -38,3 +38,21 @@
                     .board04 .slide{ width:208px !important; padding:9px 0 9px 20px; }
 
                 .board05 span{ display:block; font-size:12px; color:#575757; text-align:left; margin-top:10px; }
+
+
+				/*160919 승현추가*/
+				.smarLearningPop { z-index:999;position:absolute; left:0; top:0; display:none; width:1000px; height:500px; background:url("../img/main/Img_mainMenu01.png") no-repeat 0 0; }
+				.smarLearningPop.on { display:block; }
+				.smarLearningPopX { position:absolute; right:24px; top:28px; }
+				.smarLearningPop ul { width:278px; margin:115px auto; }
+				.smarLearningPop ul li a { color:#fff; display:block; padding:19px 25px; font-size:25px; text-decoration:none; font-weight:bold; }
+				.smarLearningPop ul li.last a { font-weight:normal; font-size:17px; }
+				.smarLearningPop ul li a:hover { color:#00cbec; font-weight:bold; background:url("../img/main/smarLearningPopList_hover.png") no-repeat 0 0;; }
+
+				.siteMap { z-index:999;position:absolute; left:50%; top:10%; width:1000px; margin-left:-500px; padding:70px 87px 70px 70px; background:#fff; }
+				.siteMap h1 { color:#000; font-size:28px; margin-bottom:50px; }
+				.siteMap h1 span { color:#666666; font-size:14px;font-weight:normal; }
+				.siteMapoffBtn { position:absolute; right:24px; top:28px; }
+				.siteMap table tr { width:100%; border-top:1px solid #dadada; }
+				.siteMap table tr th,.siteMap table tr td { padding:35px 0; }
+				 

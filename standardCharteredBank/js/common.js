@@ -24,6 +24,28 @@ $(function(){
 
 /* 서브 컨텐츠 레이어팝업 */
 $(function(){
+	$(".mainMenu01").click(function(){
+		$(".smarLearningPop").addClass("on");	
+        $("#dim").css("display","block");
+	});
+	$(".smarLearningPopX").click(function(){
+		$(".smarLearningPop").removeClass("on");	
+        $("#dim").css("display","none");
+	});
+
+	//사이트맵
+	$(".siteMap").hide();
+	$(".siteMaponBtn").click(function(){
+		$(".siteMap").show();	
+        $("#dim").css("display","block");
+	});
+
+	$(".siteMapoffBtn").click(function(){
+		$(".siteMap").hide();	
+        $("#dim").css("display","none");
+	});
+
+
     $(".layerview").css("display","none");
     $(".listTitle").click(function(){
         $(this).siblings(".layerview").css("display","block");
