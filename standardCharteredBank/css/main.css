@@ -1,0 +1,5 @@
+.main_containerInnerWrap{ width:1000px; border:1px solid #dfe2e4; margin:15px auto; }
+    .main_containerInner:after{ content:''; display:block; clear:both; }
+        .mainMenu{ width:165px; height:500px; float:left; border-right:1px solid #dfe2e4; }
+        .mainMenu:last-child{ border-right:none; }
+            .mainMenu01, .mainMenu03, .mainMenu05{ background:#f3f3f3; }
