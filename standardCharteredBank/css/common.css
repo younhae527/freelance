@@ -29,6 +29,8 @@
     .footlogo{ float:left; }
     .copyright{ float:left; padding:10px 0 10px 21px; }
         .copyright span{ font-size:12px; color:#a5a9ad; }
+    .groupSite_short_cut{ float:right; }
+        .groupSite_short_cut a{ display:block; color:#a5a9ad; font-size:13px; text-decoration:none; background:url('../img/common/ico_footMore.gif') right center no-repeat; padding:10px 30px 10px 0; }
 
 /* background_공통 */
 .bgNone{background:none !important;}
