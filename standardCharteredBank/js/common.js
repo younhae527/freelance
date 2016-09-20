@@ -31,9 +31,8 @@ $(function(){
 
 	});
 	
-	$('#header ul.menu li').on('mouseleave focusout',function(){
-		$('#header .depth2').stop().animate({height:0});
-		$('#header .depth2_back').stop().animate({height:0})
+	$('.lineMap .depth2').on('mouseleave focusout',function(){
+		$(this).parent("span").removeClass("on");
 
 	});
 
