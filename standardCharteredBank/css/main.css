@@ -50,7 +50,7 @@
 				.smarLearningPop ul li.last a { font-size:17px; }
 				.smarLearningPop ul li a:hover { color:#00cbec; font-weight:bold; background:url("../img/main/smarLearningPopList_hover.png") no-repeat 0 0;; }
 
-				.siteMap { z-index:999;position:absolute; left:50%; top:10%; width:1000px; margin-left:-500px; padding:70px 87px 70px 70px; background:#fff; }
+				.siteMap { z-index:999; position:absolute; left:50%; top:10%; width:860px; margin-left:-430px; padding:70px; background:#fff; }
 				.siteMap h1 { color:#000; font-size:28px; margin-bottom:50px; }
 				.siteMap h1 span { color:#666666; font-size:14px; margin-left:25px; font-weight:normal; }
 				.siteMapoffBtn { position:absolute; right:85px; top:50px; }
