@@ -24,6 +24,19 @@ $(function(){
 
 /* 서브 컨텐츠 레이어팝업 */
 $(function(){
+	//.lineMap .depth2.on
+	$('.lineMap span').on('mouseenter focusin', function(){
+		$('.lineMap span').removeClass("on");
+		$(this).addClass("on");
+
+	});
+	
+	$('#header ul.menu li').on('mouseleave focusout',function(){
+		$('#header .depth2').stop().animate({height:0});
+		$('#header .depth2_back').stop().animate({height:0})
+
+	});
+
 	$(".mainMenu01").click(function(){
 		$(".smarLearningPop").addClass("on");	
         $("#dim").css("display","block");
