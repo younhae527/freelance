@@ -1,7 +1,7 @@
 /* 메인하단 배너 슬라이드 */
 $(document).ready(function(){
   $('.banner_slider').bxSlider({
-    auto: false,
+    auto: true,
     displaySlideQty: 1,
     moveSlideQty: 1,
     nextText:'',
@@ -79,6 +79,18 @@ $(document).ready(function(){
 		$(".subTab li").removeClass("on");
 		$(this).addClass("on");
 	});
+});
+
+/* 푸터_그룹사이트 */
+$(function(){
+    $('.groupSite_short_cut').mouseenter(function(){
+        $(this).children('.groupSiteWrap').css('display','block');
+        $(this).children('.groupSiteTitle').addClass('on');
+    });
+    $('.groupSite_short_cut').mouseleave(function(){
+        $(this).children('.groupSiteWrap').css('display','none');
+        $(this).children('.groupSiteTitle').removeClass('on');
+    });
 });
 
 

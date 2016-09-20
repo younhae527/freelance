@@ -9,19 +9,26 @@
                        .mainMenu a p.title{ color:#000; font-size:18px; font-weight:bold; }
                             .mainMenu a p.title span{ display:block; font-size:15px; }
                        .mainMenu a p.subScribe{ color:#666; font-size:14px; padding-top:10px; }
+                       .mainMenu a:hover p.title{ display:none; }
+                       .mainMenu a:hover p.subScribe{ display:none; }
 
                     .mainMenu01 a{ background:url('../img/main/bg_mainMenu01.png') center 131px no-repeat; }
-                        .mainMenu01 a:hover{}
+                        .mainMenu01 a:hover{ background:url('../img/main/bg_mainMenu01_hover.gif') left top no-repeat; }
+
                     .mainMenu02 a{ background:url('../img/main/bg_mainMenu02.png') center 131px no-repeat; }
-                        .mainMenu02 a:hover{}
+                        .mainMenu02 a:hover{ background:url('../img/main/bg_mainMenu02_hover.gif') left top no-repeat; }
+
                     .mainMenu03 a{ background:url('../img/main/bg_mainMenu03.png') center 131px no-repeat; }
-                        .mainMenu03 a:hover{}
+                        .mainMenu03 a:hover{ background:url('../img/main/bg_mainMenu03_hover.gif') left top no-repeat; }
+
                     .mainMenu04 a{ background:url('../img/main/bg_mainMenu04.png') center 131px no-repeat; }
-                        .mainMenu04 a:hover{}
+                        .mainMenu04 a:hover{ background:url('../img/main/bg_mainMenu04_hover.gif') left top no-repeat; }
+
                     .mainMenu05 a{ background:url('../img/main/bg_mainMenu05.png') center 131px no-repeat; }
-                        .mainMenu05 a:hover{}
+                        .mainMenu05 a:hover{ background:url('../img/main/bg_mainMenu05_hover.gif') left top no-repeat; }
+
                     .mainMenu06 a{ background:url('../img/main/bg_mainMenu06.png') center 131px no-repeat; }
-                        .mainMenu06 a:hover{}
+                        .mainMenu06 a:hover{ background:url('../img/main/bg_mainMenu06_hover.gif') left top no-repeat; }
 
 .board_short_cut_Wrap{ width:100%; height:134px; background:#f1f1f1;  }
     .board_short_cut_Inner{ width:1000px; margin:0 auto; }
@@ -29,12 +36,15 @@
         .board_short_cut:after{ content:''; display:block; clear:both; }
             .board{ float:left; padding-left:46px; }
                 .board a{ display:block; text-decoration:none; font-size:16px; color:#000; font-weight:bold; padding-right:34px; margin:22px 0 28px; background:url('../img/main/ico_more.gif') right center no-repeat; }
+                .board a:hover, .board a:active{ background:url('../img/main/ico_more_hover.gif') right center no-repeat; }
                 .board01{ padding-left:0; }
                 .board04{ text-decoration:none; font-size:16px; color:#000; font-weight:bold; }
                     .board04 .bannerBox{ width:228px; height:47px; margin-top:7px; background:#fff; position:relative; }
                     .board04 a{ background:none; margin:0; padding:0; position:absolute; right:0; top:12px; text-indent:-999999px; }
                         .board04 a.bx-prev{ width:23px; height:25px; background:url('../img/main/btn_prev.gif') left top no-repeat; right:36px; }
+                            .board04 a.bx-prev:hover, .board04 a.bx-prev:active{ background:url('../img/main/btn_prev_hover.gif') left top no-repeat; }
                         .board04 a.bx-next{ width:23px; height:25px; background:url('../img/main/btn_next.gif') left top no-repeat; right:13px; }
+                            .board04 a.bx-next:hover, .board04 a.bx-next:active{ background:url('../img/main/btn_next_hover.gif') left top no-repeat; }
                     .board04 .slide{ width:208px !important; padding:9px 0 9px 20px; }
 
                 .board05 span{ display:block; font-size:12px; color:#575757; text-align:left; margin-top:10px; }
@@ -48,7 +58,7 @@
 				.smarLearningPop ul li { line-height:40px; }
 				.smarLearningPop ul li a { color:#fff; display:block; padding:10px 25px; font-size:25px; text-decoration:none; font-weight:bold; }
 				.smarLearningPop ul li.last a { font-size:17px; }
-				.smarLearningPop ul li a:hover { color:#00cbec; font-weight:bold; background:url("../img/main/smarLearningPopList_hover.png") no-repeat 0 0;; }
+				.smarLearningPop ul li a:hover, .smarLearningPop ul li a.on { color:#00cbec; font-weight:bold; background:url("../img/main/smarLearningPopList_hover.png") no-repeat 0 0;; }
 
 				.siteMap { z-index:999; position:absolute; left:50%; top:10%; width:860px; margin-left:-430px; padding:70px; background:#fff; }
 				.siteMap h1 { color:#000; font-size:28px; margin-bottom:50px; }

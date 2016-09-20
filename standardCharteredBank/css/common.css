@@ -10,11 +10,15 @@
     .headerTopInner{ width:1000px; margin:0 auto; }
     .headerTopInner:after{ content:''; display:block; clear:both; }
         .btn_iconWrap{ padding:12px 0 15px; float:left; }
-            .btn_iconWrap a{ display:inline-block; margin-right:25px; }
-        .btn_textWrap{ padding:16px 0 17px; float:right; }
-            .btn_textWrap a{ display:inline-block; text-decoration:none; font-size:12px; color:#949494; background:url('../img/common/ico_headerBar.gif') right center no-repeat; padding-right:10px; margin-left:5px; }
-            .btn_textWrap a:last-child{ background:none; }
-                .btn_textWrap a span{ color:#69bed9; }
+            .btn_iconWrap a{ display:inline-block; width:20px; height:20px; }
+                .btn_iconWrap a.favorite{ background:url('../img/common/btn_favorite.gif') left top no-repeat; margin-right:25px; }
+                .btn_iconWrap a.favorite:hover, .btn_iconWrap a.favorite.on{ background:url('../img/common/btn_favorite_hover.gif') left top no-repeat; }
+                .btn_iconWrap a.home{ background:url('../img/common/btn_home.gif') left top no-repeat; }
+                    .btn_iconWrap a.home:hover, .btn_iconWrap a.home.on{ background:url('../img/common/btn_home_hover.gif') left top no-repeat; }
+        .btn_textWrap{ padding:16px 0 17px; float:right; font-size:12px; color:#949494; }
+            .btn_textWrap a{ display:inline-block; text-decoration:none; font-size:12px; color:#949494; background:url('../img/common/ico_headerBar.gif') left center no-repeat; padding-left:10px; margin-left:5px; }
+            .btn_textWrap a.on, .btn_textWrap a:hover{ color:#007db5; }
+                .btn_textWrap span{ color:#69bed9; }
 
     .headerInner{ width:1000px; margin:0 auto; }
     .headerInner:after{ content:''; display:block; clear:both; }
@@ -30,8 +34,12 @@
     .footlogo{ float:left; }
     .copyright{ float:left; padding:10px 0 10px 21px; }
         .copyright span{ font-size:12px; color:#a5a9ad; }
-    .groupSite_short_cut{ float:right; }
-        .groupSite_short_cut a{ display:block; color:#a5a9ad; font-size:13px; text-decoration:none; background:url('../img/common/ico_footMore.gif') right center no-repeat; padding:10px 30px 10px 0; }
+    .groupSite_short_cut{ float:right; position:relative; }
+        .groupSite_short_cut a.groupSiteTitle{ display:block; color:#a5a9ad; font-size:13px; text-decoration:none; background:url('../img/common/ico_footMore.gif') 90% center no-repeat; padding:10px 40px 10px 20px; }
+            .groupSite_short_cut a.groupSiteTitle:hover, .groupSite_short_cut a.groupSiteTitle.on{ background:#424a51 url('../img/common/ico_footMore_hover.gif') 90% center no-repeat; }
+        .groupSiteWrap{ width:174px; position:absolute; bottom:35px; left:0; display:none; }
+            .groupSiteWrap ul li a{ display:block; font-size:13px; color:#fff; padding:10px 20px; background:#424a51; text-decoration:none; }
+                .groupSiteWrap ul li a:hover, .groupSiteWrap ul li a.on{ background:#2a3035; }
 
 /* background_공통 */
 .bgNone{background:none !important;}
