@@ -1,4 +1,4 @@
-#login_wrap{ width:100%: min-width:1280px; height:100%; background:url('../img/login/bg_login.jpg') left top no-repeat; position:relative; }
+#login_wrap{ width:100%; min-width:1280px; height:100%; background:url('../img/login/bg_login.jpg') left top no-repeat; position:relative; }
     .loginBox{ width:344px; height:383px; background:#fff; position:absolute; left:50%; top:50%; margin:-192px 0 0 -172px; }
         .loginTitle{ text-align:center; padding:17px 0 14px; }
         .loginContainer{ width:288px; height:262px; background:#f2e8e5; padding:28px; }
