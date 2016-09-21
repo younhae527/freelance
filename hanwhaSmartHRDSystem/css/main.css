@@ -1,7 +1,7 @@
 
 #header { width:980px; margin:0 auto; background:url("../img/main/header.jpg") no-repeat 0 0; }
 #container { width:100%; position:relative; }
-    #container > img{ width:100%; height:910px; }
+    #container > img{ width:100%; height:897px; }
     .containerInner{ width:980px; height:740px; margin:0 auto; position:absolute; left:50%; top:0; margin:0 0 0 -490px; }
 
     .containerInner h1 { padding-top:17px; }
@@ -24,7 +24,7 @@
     .content { margin-top:54px; }
     .content:after { content:""; display:block; clear:both; }
 
-    .contPlus{ position:relative; width:225px; height:235px; float:left; padding:25px 0 0 20px; }
+    .contPlus{ position:relative; width:225px; height:195px; float:left; padding:25px 0 25px 20px; }
     .contPlus .more{ position:absolute; top:25px; right:23px; }
     .contPlus h3 {  }
     .contPlus .video { 200px; height:100px; }
@@ -45,40 +45,40 @@
 
     .content01 .numArea { margin-top:10px; }
     .content01 .numArea li { position:relative; color:#5d5d5d; font-size:14px; padding:13px 0 11px 0; border-bottom:1px solid #dfdfdf; }
-    .content01 .numArea li span.graph { padding-left:35px; background:url("../img/main/ojtBlit.gif") no-repeat left center; }
-    .content01 .numArea li span.book { padding-left:35px; background:url("../img/main/blitBook.gif") no-repeat left center; }
-    .content01 .numArea li span.cap { padding-left:35px; background:url("../img/main/blitCap.gif") no-repeat left center; }
+    .content01 .numArea li span.graph { background:url("../img/main/ojtBlit.gif") no-repeat left center; padding:5px 0 5px 35px; }
+    .content01 .numArea li span.book { background:url("../img/main/blitBook.gif") no-repeat left center; padding:5px 0 5px 35px; }
+    .content01 .numArea li span.cap { background:url("../img/main/blitCap.gif") no-repeat left center; padding:5px 0 5px 35px; }
     .content01 .numArea li .num { position:absolute; right:0; top:5px; color:#767676; font-size:15px; }
     .content01 .numArea li .num a { color:#595959; font-weight:bold; font-size:28px; }
     .content01 .numArea li.last { border-bottom:none; }
 
 
     .content02 { background:#db7731; }
-    .content02 h3 { color:#fff; margin-bottom:25px; font-size:18px; }
+    .content02 h3 { color:#fff; margin-bottom:15px; font-size:18px; }
     .content02 ul li { margin-bottom:20px; }
     .content02 ul li a { width:205px; color:#fff; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal; }
-    .content02 ul li span.date { color:#ffb18b;font-size:13px; display:block; margin-top:9px; }
+    .content02 ul li span.date { color:#ffb18b;font-size:13px; display:block; margin-top:5px; }
 
     .content03 { background:#fff; }
-    .content03 h3 { color:#333; margin-bottom:25px; font-size:18px; }
+    .content03 h3 { color:#333; margin-bottom:15px; font-size:18px; }
     .content03 ul li { margin-bottom:6px; }
-    .content03 ul li a { width:190px; color:#fff; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal; }
+    .content03 ul li a { width:190px; color:#fff; font-size:15px; display:block; }
     .content03 ul li span.date { color:#ffb18b;font-size:13px; display:block; margin-top:9px; }
     .content03 .txtArea{ margin-top:15px; }
-    .content03 .txtArea ul .tit a { width:190px; color:#5e5e5e; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal }
-    .content03 .txtArea ul .txt a { width:190px; color:#a6a5a5; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal }
+    .content03 .txtArea ul .tit a { width:190px; color:#5e5e5e; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal; }
+    .content03 .txtArea ul .txt a { width:200px; color:#a6a5a5; font-size:13px; display:block; }
 
 
     .content04 { background:#333; }
-    .content04 h3 { color:#fff; margin-bottom:25px; font-size:18px; }
+    .content04 h3 { color:#fff; margin-bottom:15px; font-size:18px; }
     .content04 ul li { margin-bottom:6px; }
-    .content04 ul li a { width:190px; color:#fff; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal; }
+    .content04 ul li a { width:190px; color:#fff; font-size:15px; display:block; }
     .content04 ul li span.date { color:#ffb18b;font-size:13px; display:block; margin-top:9px; }
     .content04 .txtArea{ margin-top:15px; }
-    .content04 .txtArea ul .tit a { width:190px; color:#fff; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal }
-    .content04 .txtArea ul .txt a { width:190px; color:#a6a5a5; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal }
+    .content04 .txtArea ul .tit a { width:190px; color:#fff; font-size:15px; display:block; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;word-wrap:normal; }
+    .content04 .txtArea ul .txt a { width:200px; color:#a6a5a5; font-size:13px; display:block; }
 
-#footer { width:100%; height:90px; padding-top:27px; background:#2e2a26; position:absolute; left:0; bottom:0; }
+#footer { width:100%; height:90px; padding-top:27px; background:#2e2a26; position:absolute; }
 .footerIn { position:relative;width:980px; margin:0 auto; }
 .footerIn ul { width:170px; }
 .footerIn ul:after { content:""; display:block; clear:both }
