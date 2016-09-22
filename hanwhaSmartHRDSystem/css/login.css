@@ -1,4 +1,4 @@
-#login_wrap{ width:100%; min-width:1280px; height:100%; background:url('../img/login/bg_login.jpg') left top no-repeat; position:relative; }
+#login_wrap{position:relative; width:100%; min-width:1280px; height:100%; background:url('../img/login/bg_login.jpg') left top no-repeat; position:relative; }
     .loginBox{ width:344px; height:383px; background:#fff; position:absolute; left:50%; top:50%; margin:-192px 0 0 -172px; }
         .loginTitle{ text-align:center; padding:17px 0 14px; }
         .loginContainer{ width:288px; height:262px; background:#f2e8e5; padding:28px; }
@@ -11,3 +11,42 @@
             .loginFooter .loginLink a{ display:inline-block; font-size:11px; color:#a49d9a; background:url('../img/login/ico_loginBar.gif') right center no-repeat; padding-right:10px; text-decoration:none; }
             .loginFooter .loginLink a.last{ background:none; padding-left:5px; }
             .loginFooter p.copyright{ font-size:11px; text-align:left; color:#a49d9a; padding-top:10px; line-height:18px; }
+
+
+
+/* 이용약관 */
+.usePopdel { position:absolute; right:18px; top:18px; }
+.btnClose { margin-top:27px; margin-bottom:37px; text-align:center; }
+.btnClose a { display:inline-block; background:#7c7c7c; color:#fff; padding:14px 25px; } 
+.use { position:absolute;left:50%; top:63px; width:750px;  margin-left:-375px;  background:#fff; }
+.use h4 { background:#d88d54; font-weight:bold; color:#fff; font-size:18px; padding:17px 20px 17px; 20px; }
+.terms_box{letter-spacing:-1px; height:587px;overflow:auto; font-size:14px; color:#666666; line-height:24px;padding:33px 29px 0 29px; }
+.terms_box a{color:#ff6600}
+.terms_box .terms_sec{margin-bottom:78px;}
+.terms_box .terms_sec.last{margin-bottom:0px;}
+.terms_box .cen{text-align:center;}
+.terms_box h5{font-size:17px; font-weight:bold; margin-bottom:16px; color:#333;}
+.terms_box .tt1{ text-align:left; font-size:15px; color:#666666; line-height:25px; margin-bottom:48px;}
+.terms_box .tt2{margin-bottom:3px;}
+.terms_box .tt3{margin-bottom:35px;}
+.terms_box .tt4{margin-bottom:21px;}
+.terms_box .list1 > li{ margin-top:30px;}
+.terms_box .list2{ margin-top:32px; margin-bottom:15px;}
+.terms_box .list3{ margin-top:18px; margin-bottom:35px;}
+.terms_box .list4{margin-top:30px; margin-bottom:38px;}
+.terms_box .list5 > li{margin-bottom:30px;}
+.terms_box .list6{margin:32px 0px;}
+.terms_box .list6 > li{padding-left:8px; background:url(/resources/images/common/list_style_o.gif) no-repeat 0px 10px;}
+.terms_box .list7 > li{position:relative; padding-left:8px;}
+.terms_box .list7 > li:before{position:absolute; content:'-'; left:0px;}
+.terms_box .list8 > li{margin-bottom:8px;}
+.terms_box .list_c > li{position:relative; padding-left:28px; margin-bottom:10px;}
+.terms_box .list_c .num{position:absolute; top:3px; left:0px; line-height:18px;  height:18px;  width:16px; padding-right:2px; border:1px solid #ff6600; border-radius:50%; color:#ff6600; font-size:13px; text-align:center; behavior: url(/resources/css/PIE.htc);}
+.terms_box table{margin-top:18px; width:100%; text-align:center; border-top:1px solid #cccccc; font-size:15px;}
+.terms_box table th{height:49px; background:#f0f0f0; border-left:1px #e9e9e9 solid; font-weight:bold; color:#333;}
+.terms_box table td{border-left:1px #e9e9e9 solid; border-bottom:1px #e9e9e9 solid; padding:18px; color:#666}
+.terms_box table th:first-child,.terms_box table td:first-child{border-left:0;}
+.terms_box .dw_btn{display:inline-block; width:122px; line-height:38px; padding:0px 15px; border:1px solid #c4c4c4; font-size:15px; color:#333; text-align:left; background:url(/resources/images/common/dw_btn.gif) no-repeat 114px center;}
+.terms_box .btn{display:inline-block; width:115px; line-height:38px; border:1px solid #c4c4c4; font-size:15px; color:#333;text-align:center;}
+.terms_box .index_list_wrap{border:1px solid #cccccc; overflow:hidden;}
+.terms_box .index_list{float:left; padding:40px 35px 40px 82px;}

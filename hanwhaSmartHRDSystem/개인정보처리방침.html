@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="viewport" content="width=1000" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <link rel="shortcut icon" type="image/x-icon" href="" />
+    <link href="css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="css/common.css" rel="stylesheet" type="text/css"/>
+    <link href="css/login.css" rel="stylesheet" type="text/css"/>
+    <link href="css/jquery-ui-1.10.3.custom.min.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
+    <script src="js/jquery.ui.datepicker-ko.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+    <title>한화디펜스HRD_login</title>
+</head>
+<body>
+    <div id="wrap">
+        <div id="login_wrap">
+		<!-- 이용약관-->
+		<div class="use">
+			<h4 class="section_title3 bot">개인정보처리방침</h4>
+			<div class="terms_box">
+				<div class="terms_sec">
+					
+					<p class="tt1 cen">한화디펜스 주식회사(이하 “회사”라고 함)는 고객님의 개인정보를 소중하게 생각하며, ‘개인정보보호법’ 및 ‘정보통신망 이용촉진 및 정보보호에 관한 <br>법률’ 등 관련 법령상의 개인정보보호 규정을 준수하며, 관련 법령에 의거한 개인정보처리방침을 통하여 고객님(홈페이지 이용자)의 권익 보호에 <br>최선을 다하고 있습니다. 회사는 개인정보처리방침 등을 통하여 고객님(홈페이지 이용자)께서 제공하는 개인정보가 어떠한 용도와 방식으로 처리되고 있으며,<br>개인정보보호를 위해 어떠한 조치가 취해지고 있는지 알려 드립니다. 회사는 개인정보처리방침 등을 개정하는 경우 <br>웹사이트 공지사항(또는 개별공지)을 통해 공지할 것입니다.</p>
+					<div class="index_list_wrap">
+						<ol class="index_list">
+							<li>제1조 총칙</li>
+							<li>제2조 수집하는 개인정보 항목 및 수집 방법</li>
+							<li>제3조 개인정보의 수집 및 이용 목적</li>
+							<li>제4조 개인정보의 보유 및 이용기간</li>
+							<li>제5조 개인정보의 파기절차 및 방법</li>
+							<li>제6조 개인정보 제3자 제공</li>
+							<li>제7조 수집한 개인정보의 위탁</li>
+						</ol>
+						<ol class="index_list">
+							<li>제8조 정보주체 및 법정대리인의 권리와 그 행사 방법</li>
+							<li>제9조 개인정보 수집, 이용, 제공에 대한 동의 철회</li>
+							<li>제10조 개인정보 자동수집 장치의 설치, 운영 및 그 거부에 관한 사항</li>
+							<li>제11조 개인정보의 기술적 / 관리적 보호대책</li>
+							<li>제12조 개인정보에 관한 민원 서비스</li>
+							<li>제13조 부칙</li>
+						</ol>
+					</div>
+				</div>
+				<div class="terms_sec">
+					<h5>제1조(총칙)</h5>
+					<ol class="list_c">
+						<li><span class="num">1</span>"개인정보"란 살아 있는 개인에 관한 정보로서 성명, 주민등록번호 및 영상 등을 통하여 개인을 알아볼 수 있는 정보(해당 정보만으로는 특정개인을 알아볼 수 없더라도 다른 정보와 쉽게 결합하여 알아볼 수 있는 것을 포함)를 말합니다.</li>
+						<li><span class="num">2</span>"정보주체"란 처리되는 정보에 의하여 알아볼 수 있는 사람으로서 그 정보의 주체가 되는 사람을 말하며, 홈페이지 이용 고객을 말합니다.</li>
+						<li><span class="num">3</span>회사는 개인정보처리방침을 홈페이지(<a href="" class="" target="_blank" title="새창으로 바로가기">www.hanwha-defensesystems.co.kr</a>)첫 화면에 공개함으로써 언제나 쉽게 확인할 수 있도록 조치하고 있으며, <br>개인정보처리방침을 개정하는 경우 웹사이트 공지사항(또는 개별공지)을 통하여 공지할 것입니다.</li>
+					</ol>
+				</div>
+				<div class="terms_sec">
+					<h5>제2조(수집하는 개인정보 항목 및 수집 방법)</h5>
+					<p class="tt2">회사는 법령의 규정 또는 정보주체의 동의 없이는 정보주체의 사생활을 현저히 침해할 우려가 있는 민감정보, 개인을 고유하게 구별하기 위하여 부여된 고유식별정보를 처리하지 않습니다.</p>
+					<ol class="list1">
+						<li>
+							<p class="">1. 회사는 방문예약 업무 지원을 위해 아래와 같은 개인정보를 수집하고 있습니다.</p>
+							<table class="">
+								<caption></caption>
+								<tbody><tr>
+									<th>수집 방법</th>
+									<th>필수 항목</th>
+									<th>선택 항목</th>
+								</tr>
+								<tr>
+									<td>홈페이지<br>(방문신청 바로가기)</td>
+									<td>성명, 생년월일, 업체명, 직위/직급, 국적, 전화번호(휴대전화), 주소(자택 or 회사),</td>
+									<td>없음.</td>
+								</tr>
+							</tbody></table>
+						</li>
+						<li>
+							<p class="tt3">2. 웹사이트를 이용한 서비스 이용과정이나 사업처리 과정에서 아래와 같은 정보들이 자동으로 생성되어 수집될 수 있습니다.</p>
+							<p>※ 접속IP정보, 쿠키, 접속로그, 서비스 이용기록</p>
+						</li>
+					</ol>
+				</div>
+				<div class="terms_sec">
+					<h5>제3조(개인정보의 수집 및 이용 목적)</h5>
+					<p class="tt2">회사는 수집한 개인정보를 다음의 목적을 위해 활용합니다.</p>
+					<table cellspacing="0" cellpadding="0" class="">
+						<caption></caption>
+						<tbody><tr>
+							<th>수집 경로</th>
+							<th>항목</th>
+							<th>이용 목적</th>
+						</tr>
+						<tr>
+							<td class="box_cn">홈페이지<br>(방문신청 바로가기)</td>
+							<td class="box_cn">필수 항목</td>
+							<td>- 방문 예약</td>
+						</tr>
+						<tr>
+							<td class="box_cn">홈페이지</td>
+							<td class="box_cn">접속IP정보, 쿠키, 접속로그, 서비스 이용기록</td>
+							<td>- 접속빈도 파악, 서비스이용 통계</td>
+						</tr>
+					</tbody></table>
+					<p class="tt3">  ※ 본 사이트는 회원가입이 불필요하며, 서비스 제공을 위한 최소한의 개인정보를 수집하고 있습니다.</p>
+				</div>
+				<div class="terms_sec">
+					<h5>제4조(개인정보의 보유 및 이용 기간)</h5>
+					<p class="tt3">이용자의 개인정보는 다음 내용에 따라 보존/파기 됩니다</p>
+					<ol class="list2">
+						<li>1. 보존항목 : 방문예약 시스템 등의 이용자 정보</li>
+						<li>2. 보존기간 : 수집, 이용목적 달성 시까지</li>
+						<li>3. 기간 경과 시 : 지체 없이 파기</li>
+					</ol>
+					<p class="tt2">위 보유기간에도 불구하고 계속 보유하여야 할 필요가 있을 경우에는 이용자의 동의를 받겠습니다. 다만, 회사는 관계법령의 규정에 의하여 보존할 필요가 있는 경우는 해당 법령에서 정한 바에 의하여 개인정보를 보관할 수 있습니다.</p>
+				</div>
+				<div class="terms_sec">
+					<h5>제5조(개인정보의 파기 절차 및 방법)</h5>
+					<ol class="list_c">
+						<li><span class="num">1</span>파기 절차 : 회사는 수집한 개인정보의 처리목적이 달성되거나 그 보유기간이 종료되는 경우 정보주체의 동의, 이용약관, 관련 법령에 따라 보관이 필요한 경우를 제외하고 해당 정보를 지체 없이 파기합니다.</li>
+						<li><span class="num">2</span>파기 방법 : 전자적 파일형태로 저장된 개인정보는 기록을 재생할 수 없는 기술적 방법을 사용하여 삭제하고, 종이에 출력된 개인정보는 분쇄기로 분쇄하거나 소각을 통하여 파기합니다.</li>
+					</ol>
+				</div>
+				<div class="terms_sec">
+					<h5>제6조(개인정보의 제3자 제공)</h5>
+					<p class="tt3">회사는 ‘제3조 개인정보의 수집 및 이용 목적’에서 고지한 범위 내에서 개인정보를 이용하며, 동 범위를 초과하여 개인정보를 이용하거나 제3자에게 제공•공개하지 않습니다. 다만, 아래의 경우에는 예외로 합니다</p>
+					<ol class="list_c">
+						<li><span class="num">1</span>정보주체로부터 별도의 동의를 받는 경우</li>
+						<li><span class="num">2</span>다른 법령의 규정에 의하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우</li>
+						<li><span class="num">3</span>정보주체 또는 그 법정대리인이 의사표시를 할 수 없는 상태에 있거나 주소불명 등으로 사전 동의를 받을 수 없는 경우로서 명백히 정보주체 또는 제3자의 급박한 생명, 신체, 재산의 이익을 위하여 필요하다고 인정되는 경우</li>
+					</ol>
+				</div>
+				<div class="terms_sec">
+					<h5>제7조(수집한 개인정보처리의 위탁)</h5>
+					<ol class="list_c">
+						<li>
+							<p class="tt2"><span class="num">1</span>회사는 원활한 개인정보업무 처리를 위하여 아래와 같이 개인정보의 처리 업무를 위탁하고 있습니다.</p>
+							<table class="">
+								<caption></caption>
+								<tbody><tr>
+									<th>위탁 업무</th>
+									<th>위탁 개인정보 항목</th>
+									<th>수탁 업체</th>
+								</tr>
+								<tr>
+									<td>한화디펜스 홈페이지 유지ㆍ보수</td>
+									<td>제2조의 수집항목</td>
+									<td>한화 S&amp;C㈜</td>
+								</tr>
+								<tr>
+									<td>방문관리 시스템 관리</td>
+									<td>제2조의 수집항목</td>
+									<td>한화 S&amp;C㈜</td>
+								</tr>
+							</tbody></table> 
+						</li>
+						<li><span class="num">2</span>회사는 개인정보위탁 시 위탁업무 수행목적 외 개인정보 처리금지, 기술적ㆍ관리적 보호조치, 재위탁 제한, 수탁자에 대한 관리감독, 손해배상 등 책임에 관한 사항을 명확히 하고, 수탁자가 개인정보를 안전하게 처리하는지를 감독하고 있습니다.</li>
+						<li><span class="num">3</span>위탁업무의 내용이나 수탁자가 변경될 경우에는 지체 없이 본 개인정보처리방침을 통하여 공개하도록 하겠습니다.</li>
+					</ol>
+				</div>
+				<div class="terms_sec">
+					<h5>제8조(정보주체 및 법정대리인의 권리와 그 행사방법)</h5>
+					<ol class="list_c">
+						<li>
+							<p><span class="num">1</span>모든 정보주체는 회사가 처리하는 자신의 개인정보에 대한 열람, 정정•삭제 및 처리정지를 요구할 수 있습니다. 다만, 아래 사항에 해당하는 경우 회사는 위와 같은 요구를 거절하거나 제한할 수 있습니다.</p>
+							<ol class="list3">
+								<li>가. 법률에 특별한 규정이 있거나 법령상 의무를 준수하기 위하여 불가피한 경우</li>
+								<li>나. 다른 사람의 생명•신체를 해할 우려가 있거나 다른 사람의 재산과 그 밖의 이익을 부당하게 침해할 우려가 있는 경우</li>
+								<li>다. 개인정보를 처리하지 아니하면 정보주체와 약정한 서비스를 제공하지 못하는 등 계약의 이행이 곤란한 경우로서 정보주체가 그 계약의 해지 의사를 명확하게 밝히지 아니한 경우</li>
+							</ol>
+						</li>
+						<li>
+							<p class=""><span class="num">2</span>권리행사 방법 및 절차</p>
+							<ol class="list3">
+								<li>가. 개인정보의 열람 등을 원하는 정보주체는 열람ㆍ정정ㆍ삭제ㆍ처리정지 청구서를 서면, 전자우편, 팩스 등의 방법으로 개인정보 담당부서에 제출하실 수 있습니다. (담당부서는 “제12조 개인정보에 관한 민원 서비스” 참조)</li>
+								<li>나. 회사는 정당한 사유가 없는 한 10일 이내에 해당 조치를 취하고, 거절 또는 제한의 사유가 있는 경우에는 5일 이내에 제한ㆍ거절의 사유 및 이의 제기 방법을 알려드립니다.</li>
+								<li>다. 회사는 정보주체 또는 그의 대리인이 개인정보의 열람 등을 청구하는 때에는 주민등록증 등의 신분증명서, 공인전자서명 등을 확인하여 정보주체 본인 또는 대리인 여부를 확인할 수 있습니다.</li>
+							</ol>
+						</li>
+					</ol>
+					<div class="">
+						<a href="/resources/file/pricavy1.docx" target="_blank" title="새창으로 이동" class="dw_btn">청구서 양식</a>
+						<a href="/resources/file/pricavy2.docx" target="_blank" title="새창으로 이동" class="dw_btn">위임장 양식</a>
+					</div>
+				</div>
+				<div class="terms_sec">
+					<h5>제9조(개인정보의 수집, 이용, 제공에 대한 동의 철회)</h5>
+					<p>모든 정보주체는 개인정보의 수집, 이용, 제공에 대해 동의하신 내용을 언제든지 철회하실 수 있습니다. 동의 철회는 개인정보보호책임자에게 서면, 전화, 이메일 등으로 연락하시면 득시 개인정보의 삭제 등 필요한 조치를 하겠습니다. 동의 철회를 하고 개인정보를 파기하는 등의 조치를 취한 경우에는 그 사실을 고객께 지체 없이 통지하도록 하겠습니다.</p>
+				</div>
+				<div class="terms_sec">
+					<h5>제10조(개인정보 자동수집 장치의 설치, 운영 및 그 거부에 관한 사항)</h5>
+					<ol class="list_c">
+						<li>
+							<p class="tt3"><span class="num">1</span>회사는 귀하의 정보를 수시로 저장하고 찾아내는 ‘쿠키(cookie)’를 운용합니다.</p>
+							<p>쿠키란 회사의 웹사이트를 운영하는데 이용되는 서버가 귀하의 브라우저에 보내는 아주 작은 텍스트 파일로서 고객님의 컴퓨터 하드디스크에 저장됩니다. 회사는 다음과 같은 목적을 위해 쿠키를 사용합니다.</p>
+							<ol class="list4">
+								<li>가. 고객의 접속 빈도나 방문 시간 등을 분석하고 이용자의 취향과 관심분야를 파악하여 서비스 개편 등의 척도로 활용</li>
+								<li>나. 회사가 개인의 관심 분야에 따라 차별화된 정보를 제공하기 위한 자료로 이용</li>
+							</ol>
+						</li>
+						<li>
+							<p class="tt3"><span class="num">2</span>귀하는 쿠키 설치에 대한 선택권을 가지고 있습니다. 따라서, 귀하는 웹브라우저에서 옵션을 설정함으로써 모든 쿠키를 허용하거나, 쿠키가 저장될 때마다 확인을 거치거나, 아니면 모든 쿠키의 저장을 거부할 수도 있습니다.</p>
+							<ol class="list2">
+								<li>가. 쿠키 설정을 거부하는 방법(Internet Explorer를 사용하고 있는 경우)
+									<ol class="list3">
+										<li>1) [도구] 메뉴에서 [인터넷 옵션]을 선택합니다.</li>
+										<li>2) [개인정보 탭]을 클릭합니다.</li>
+										<li>3) [개인정보보호 수준]을 설정하시면 됩니다.</li>
+									</ol>
+								</li>
+								<li>나. 받은 쿠키를 보는 방법(Internet Explorer 를 사용하고 있는 경우)
+									<ol class="list3">
+										<li>1) [작업 표시줄]에서 [도구]를 클릭한 다음</li>
+										<li>2) [인터넷 옵션]을 선택합니다.</li>
+										<li>3) [일반 탭(기본 탭)]에서 [설정]을 클릭한 다음</li>
+										<li>4) [파일 보기]를 선택합니다.</li>
+									</ol>
+								</li>
+							</ol>
+						</li>
+						<li><span class="num">3</span>귀하께서 쿠키 설치를 거부하셨을 경우 회사 서비스 이용에 어려움이 있을 수도 있음을 알려드립니다</li>
+					</ol>
+				</div>
+				<div class="terms_sec">
+					<h5>제11조(개인정보의 기술적/관리적 보호 대책)</h5>
+					<p class="">회사는 개인정보를 취급함에 있어 개인정보가 분실, 도난, 누출 변조 또는 훼손되지 않도록 아래와 같은 안전성 확보 조치를 취하고 있습니다.</p>
+					<ol class="list5">
+						<li><p class="tt4">1. 기술적 조치</p>
+							<ul class="list7">
+								<li>개인정보의 안전한 저장 및 전송 등을 위하여 법령이 정한 기준을 준수하고 있습니다.</li>
+								<li>회사는 백신프로그램을 이용하여 컴퓨터바이러스에 의한 피해를 방지하기 위한 조치를 취하고 있습니다. 백신프로그램은 주기적으로 업데이트되며 갑작스런 바이러스가 출현할 경우 백신이 나오는 즉시 이를 제공함으로써 개인정보가 침해되는 것을 방지하고 있습니다.</li>
+								<li>해킹 등 외부침입에 대비하여 각 서버마다 침입차단시스템 및 취약점 분석 시스템 등을 이용하여 보안에 만전을 기하고 있습니다.</li>
+							</ul>
+						</li>
+						<li><p class="tt4">2. 관리적 조치</p>
+							<ul class="list7">
+								<li>회사는 정보주체의 개인정보에 대한 접근권한을 최소한의 인원으로 제한하고 있으며, 그 최소한의 인원에 해당하는 자는 아래와 같습니다.
+									<ul class="list6">
+										<li>이용자를 직접 상대로 하여 채용 업무를 수행하는 자</li>
+										<li>개인정보보호책임자 및 담당자 등 개인정보관리업무를 수행하는 자</li>
+										<li>기타 업무상 개인정보의 취급이 불가피한 자</li>
+									</ul>
+								</li><li>개인정보를 취급하는 직원을 대상으로 개인정보보호에 관한 정기적 사내 교육 및 외부 위탁교육을 실시하고 있습니다</li>
+								<li>개인정보 취급자의 업무 인수인계는 보안이 유지된 상태에서 철저하게 이뤄지고 있으며, 입사 및 퇴사 후 개인정보 보호에 관한 법령을 준수하도록 철저히 관리•감독하고 사고에 대한 책임을 명확히 하고 있습니다. 회사는 이용자 개인의 실수나 기본적인 인터넷의 위험성 때문에 일어나는 일들에 대해 책임을 지지 않습니다. 지원자 개개인이 본인의 개인정보를 보호하기 위하여 자신의 비밀번호를 적절하게 관리하고 여기에 대한 책임을 져야 합니다. 그 외 내부관리자의 실수나 기술관리 상의 사고로 인해 개인정보의 분실, 도난, 유출, 변조 또는 훼손이 유발될 경우 회사는 즉각 정보주체에게 사실을 알리고 적절한 대책과 보상을 강구할 것입니다.</li>
+								<li>개인정보와 개인정보처리시스템의 안전한 보관을 위하여 물리적 잠금 장치 등의 물리적 접근방지를 위한 보호조치를 취하고 있으며, 전산실 및 자료 보관실 등을 통제구역으로 설정하여 출입을 통제하고 있습니다.</li>
+							</ul>
+						</li>
+					</ol>
+				</div>
+				<div class="terms_sec">
+					<h5>제12조(개인정보에 관한 민원 서비스)</h5>
+					<ol class="list_c">
+						<li>
+							<p class="list3"><span class="num">1</span>회사는 정보주체의 개인정보를 보호하고 개인정보와 관련된 불만을 처리하기 위하여 아래와 같이 관련 부서 및 개인정보 보호책임자를 지정하고 있습니다</p>
+							<ol class="">
+								<li>
+									<p class="">가. 개인정보보호책임자</p>
+									<ol class="list3">
+										<li>1) 이름 : 이대우</li>
+										<li>2) 전화번호 : 055-280-6100</li>
+									</ol>
+								</li>
+								<li>
+									<p class="">나. 개인정보관리책임자 및 담당자</p>
+									<table class="table_base content">
+										<caption></caption>
+										<tbody><tr>
+											<td>개인정보관리책임자(방문예약)<br>성명 : 김승우<br>소속 : 보안팀<br>전화 : 02-6456-0595<br>FAX : 02-6456-0559</td>
+											<td>개인정보관리담당자(방문예약)<br>성명 : 강현석<br>소속 : 보안팀<br>전화 : 055-280-6125<br>FAX : 055-280-6118</td>
+											<td>개인정보관리책임자(홈페이지)<br>성명 : 천진필<br>소속 : 정보지원팀<br>전화 : 055-280-6437<br>FAX : 055-280-6946</td>
+											<td>개인정보관리담당자(홈페이지)<br>성명 : 박효석<br>소속 : 정보지원팀<br>전화 : 055-280-6940<br>FAX : 055-280-6946</td>
+										</tr>
+									</tbody></table>
+								</li>
+							</ol>
+						</li>
+						<li>
+							<p class="list2"><span class="num">2</span>기타 개인정보침해에 대한 신고나 상담이 필요하신 경우에는 아래 기관에 문의하시기 바랍니다.</p>
+							<ol class="list7">
+								<li>개인정보 분쟁조정위원회 : 02-405-5150 (<a href="http://www.kopico.or.kr" title="새창으로열기" class="" target="_blank">www.kopico.or.kr</a>) (국번없이) 118 (<a href="http://privacy.kisa.or.kr" class="" target="_blank" title="새창으로열기">privacy.kisa.or.kr</a>)</li>
+								<li>개인정보 침해신고센터 : (국번없이) 118 (<a href="http://privacy.kisa.or.kr" title="새창으로열기" class="" target="_blank">privacy.kisa.or.kr</a>)</li>
+								<li>대검찰청 사이버범죄수사단 : 02-3480-3571 (<a href="mailto:cybercid@spo.go.kr" title="새창으로열기" class="" target="_blank">cybercid@spo.go.kr</a>)</li>
+								<li>경찰청 사이버테러대응센터 : 1566-0112 (<a href="http://www.netan.go.kr" title="새창으로열기" class="" target="_blank">www.netan.go.kr</a>)</li>
+							</ol>
+						</li>
+					</ol>
+				</div>
+				<div class="terms_sec last">
+					<h5>13. 부칙</h5>
+					<p class="tt3">현 개인정보처리방침의 내용 추가, 삭제 및 수정이 있을 시에는 사전에 한화디펜스 사이트의 공지사항을 통해 고지할 것입니다.</p>
+					<p class="tt3">개인정보처리방침 제정일 : 2011년 9월 30일<br>개인정보처리방침 비전번호 : 2.0<br>개인정보처리방침 최종 변경일자 : 2016년 6월 1일</p>
+					<!-- <a href="" class="btn" target="_blank" title="새창으로 열기">이전버전 보기</a> -->
+				</div>
+				
+			</div>
+			<a class="usePopdel" href=""><img src="img/sub/usePopdel.png" alt="창닫기" /></a>
+
+			<div>
+			<div class="btnClose">
+				<a href="#">닫기</a>
+			</div>
+			</div>
+		</div>
+		<!-- //이용약관-->
+        </div>
+        
+    </div>
+    <!-- //wrap -->
+</body>
+</html>

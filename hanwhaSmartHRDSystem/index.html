@@ -11,17 +11,34 @@
 		<link href="css/base.css" rel="stylesheet" type="text/css"/>
 		<link href="css/common.css" rel="stylesheet" type="text/css"/>
 		<link href="css/main.css" rel="stylesheet" type="text/css"/>
+		<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css"/>
 
 
 
 		<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 		<script src="js/common.js" type="text/javascript"></script>
 
+		<script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+
 		<title>한화디펜스</title>
 	</head>
 <script language="JavaScript">
 	$(document).ready(function(){
 
+		$('.slide01').bxSlider({
+			//slideWidth: 660,
+			speed : 1000,
+			auto: true,
+			pager: true
+			//pause: 10000      
+		});
+		$('.slide02').bxSlider({
+			//slideWidth: 660,
+			speed : 1000,
+			auto: true,
+			pager: true
+			//pause: 10000      
+		});
 	});
 </script>
 
@@ -49,6 +66,15 @@
 
 
 				<div class="content">
+					<div class="content01 contPlus login">
+						<div class="longinCont">
+							<p><img class="human" src="img/main/humanBlit.gif" alt="" /></p>
+							<div>
+								<span class="txt">로그인 해주세요.</span>
+								<p><a class="btnLogin" href="#">LOGIN</a></p>
+							</div>
+						</div>
+					</div><!-- //content01 -->
 					<div class="content01 contPlus">
 						<img class="human" src="img/main/humanBlit.gif" alt="" />
 						<ul class="humanList">
@@ -83,32 +109,97 @@
 
 					<div class="content03 contPlus">
 						<h3>외국어 한마디</h3>
-						<div class="video">
-							<img src="img/main/eximg.jpg" alt="" />
+						<div class="slide01Cont">
+							<div class="slide01">
+								<div>
+									<div class="video">
+										<img src="img/main/eximg.jpg" alt="" />
+										<a class="btnPlay" href="#"><img src="img/main/btnPlay.png" alt="재생" /></a>
+									</div>
+									<div class="txtArea">
+										<ul>
+											<li class="tit"><a href="#">Prosecutors raid VW's Seoul ofofof</a></li>
+											<li class="txt"><a href="#">South Korea was quick to act when news first broke of...</a></li>
+										</ul>
+									</div>
+								</div>
+								<div>
+									<div class="video">
+										<img src="img/main/eximg.jpg" alt="" />
+										<a class="btnPlay" href="#"><img src="img/main/btnPlay.png" alt="재생" /></a>
+									</div>
+									<div class="txtArea">
+										<ul>
+											<li class="tit"><a href="#">Prosecutors raid VW's Seoul ofofof</a></li>
+											<li class="txt"><a href="#">South Korea was quick to act when news first broke of...</a></li>
+										</ul>
+									</div>
+								</div>
+								<div>
+									<div class="video">
+										<img src="img/main/eximg.jpg" alt="" />
+										<a class="btnPlay" href="#"><img src="img/main/btnPlay.png" alt="재생" /></a>
+									</div>
+									<div class="txtArea">
+										<ul>
+											<li class="tit"><a href="#">Prosecutors raid VW's Seoul ofofof</a></li>
+											<li class="txt"><a href="#">South Korea was quick to act when news first broke of...</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
 						</div>
 
-						<div class="txtArea">
-							<ul>
-								<li class="tit"><a href="#">Prosecutors raid VW's Seoul ofofof</a></li>
-								<li class="txt"><a href="#">South Korea was quick to act when news first broke of...</a></li>
-							</ul>
-						</div>
-						<a class="more" href="#"><img src="img/main/btnPlus02.png" alt="더보기" /></a>
+						<!--a class="more" href="#"><img src="img/main/btnPlus02.png" alt="더보기" /></a-->
 					</div><!-- //content03 -->
 
 					<div class="content04 contPlus">
 						<h3>추천 콘텐츠</h3>
-						<div class="video">
-							<img src="img/main/eximg.jpg" alt="" />
-						</div>
+						<div class="slide02Cont">
+							<div class="slide02">
+								<div>
+									<div class="video">
+										<img src="img/main/eximg.jpg" alt="" />
+										<a class="btnPlay" href="#"><img src="img/main/btnPlay.png" alt="재생" /></a>
+									</div>
 
-						<div class="txtArea">
-							<ul>
-								<li class="tit"><a href="#">그리스 경제 이것만은 알고가자 </a></li>
-								<li class="txt"><a href="#">그리스 국민투표 결과 61%가 [채권단 긴축안]에 반대’했다는 소식...</a></li>
-							</ul>
+									<div class="txtArea">
+										<ul>
+											<li class="tit"><a href="#">그리스 경제 이것만은 알고가자 </a></li>
+											<li class="txt"><a href="#">그리스 국민투표 결과 61%가 [채권단 긴축안]에 반대’했다는 소식...</a></li>
+										</ul>
+									</div>
+								</div>
+								<div>
+									<div class="video">
+										<img src="img/main/eximg.jpg" alt="" />
+										<a class="btnPlay" href="#"><img src="img/main/btnPlay.png" alt="재생" /></a>
+									</div>
+
+									<div class="txtArea">
+										<ul>
+											<li class="tit"><a href="#">그리스 경제 이것만은 알고가자 </a></li>
+											<li class="txt"><a href="#">그리스 국민투표 결과 61%가 [채권단 긴축안]에 반대’했다는 소식...</a></li>
+										</ul>
+									</div>
+								</div>
+								<div>
+									<div class="video">
+										<img src="img/main/eximg.jpg" alt="" />
+										<a class="btnPlay" href="#"><img src="img/main/btnPlay.png" alt="재생" /></a>
+									</div>
+
+									<div class="txtArea">
+										<ul>
+											<li class="tit"><a href="#">그리스 경제 이것만은 알고가자 </a></li>
+											<li class="txt"><a href="#">그리스 국민투표 결과 61%가 [채권단 긴축안]에 반대’했다는 소식...</a></li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
 						</div>
-						<a class="more" href="#"><img src="img/main/btnPlus03.png" alt="더보기" /></a>
+						<!--a class="more" href="#"><img src="img/main/btnPlus03.png" alt="더보기" /></a-->
 					</div><!-- //content04 -->
 
 				</div><!-- //content -->

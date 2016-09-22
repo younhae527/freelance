@@ -27,10 +27,19 @@
     .contPlus{ position:relative; width:225px; height:195px; float:left; padding:25px 0 25px 20px; }
     .contPlus .more{ position:absolute; top:25px; right:23px; }
     .contPlus h3 {  }
-    .contPlus .video { 200px; height:100px; }
+    .contPlus .video { position:relative; width:200px; height:100px; }
+    .contPlus .video .btnPlay { position:absolute; top:35%; left:50%; margin-left:-15px; }
 
     .content01:after { content:""; display:block; clear:both; }
     .content01.contPlus { width:205px;padding-right:20px;background:#fff; }
+
+/*login*/
+.longinCont { margin-top:30px; }
+.content01.login { text-align:center !important; }
+.content01.login .human { float:inherit; }
+.content01.login .btnLogin { color:#fff;;  display:inline-block; font-size:15px; background:#db7731; padding:11px 20px; }
+.content01.login .txt { font-size:14px; font-weight:bold; color:#333;  margin-top:12px;  margin-bottom:12px; display:block;  }
+/*//login*/
 
     .content01 .human { float:left; }
     .content01 .humanList { float:left; margin-left:13px; }
