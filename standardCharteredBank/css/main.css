@@ -34,7 +34,7 @@
     .board_short_cut_Inner{ width:1000px; margin:0 auto; }
         .board_short_cut{ padding:35px 0 32px; }
         .board_short_cut:after{ content:''; display:block; clear:both; }
-            .board{ float:left; padding-left:25px; }
+            .board{ float:left; padding-left:23px; }
                 .board a{ display:block; text-decoration:none; font-size:15px; color:#000; font-weight:bold; padding-right:32px; margin:22px 0 28px; background:url('../img/main/ico_more.gif') right center no-repeat; }
                 .board a:hover, .board a:active{ background:url('../img/main/ico_more_hover.gif') right center no-repeat; }
                 .board00{ padding-left:0; }
