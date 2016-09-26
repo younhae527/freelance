@@ -28,21 +28,26 @@ $(function(){
 	$('.lineMap span').on('mouseenter focusin', function(){
 		$('.lineMap span').removeClass("on");
 		$(this).addClass("on");
-
 	});
 	
 	$('.lineMap .depth2').on('mouseleave focusout',function(){
 		$(this).parent("span").removeClass("on");
-
 	});
 
 	$(".mainMenu01").click(function(){
 		$(".smarLearningPop").addClass("on");	
         $("#dim").css("display","block");
 	});
+
 	$(".smarLearningPopX").click(function(){
 		$(".smarLearningPop").removeClass("on");	
         $("#dim").css("display","none");
+	});
+
+	//리더십 지원프로그램
+	$('.programLinkArea > a').click(function(){
+	    $(this).siblings('.layerview').css('display','block');
+	    $("#dim").css("display","block");
 	});
 
 	//사이트맵

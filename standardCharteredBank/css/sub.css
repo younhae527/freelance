@@ -99,7 +99,7 @@
     .contentWrap .contentTwoDepth:after{ content:''; display:block; clear:both; }
         .contentWrap .contentTwoDepth .contentLeftDepth{ width:500px; float:left; }
         .contentWrap .contentTwoDepth .contentRightDepth{ width:500px; float:left; }
-            .contentWrap .contentTwoDepth .contentBox{ height:130px; padding:18px 45px 19px 0; border-bottom:1px solid #e0e2e1; }
+            .contentWrap .contentTwoDepth .contentBox{ height:130px; padding:18px 30px 19px 0; border-bottom:1px solid #e0e2e1; }
                 .contentWrap .contentTwoDepth .contentBox .contentDepthTitle{ font-size:18px; font-weight:bold; color:#000; padding-bottom:10px; }
                 .contentWrap .contentTwoDepth .contentBox .contentDepthText{ font-size:14px; color:#666; line-height:26px; }
     .contentWrap p.blockbulit{ font-size:14px; color:#2688ba; margin-top:20px; background:url('../img/sub/common/ico_blockBulit.gif') left 7px no-repeat; padding-left:15px; line-height:20px; }
@@ -124,3 +124,42 @@
                 .contentWrap .contentTwoDepth .contentBox_01_04{ background:url('../img/sub/bg_readership03_04.gif') left center no-repeat; }
                 .contentWrap .contentTwoDepth .contentBox_01_05{ background:url('../img/sub/bg_readership03_05.gif') left center no-repeat; }
                 .contentWrap .contentTwoDepth .contentBox_01_06{ background:url('../img/sub/bg_readership03_06.gif') left center no-repeat; }
+
+    /* 서브_리더십 지원프로그램 */
+    .readershipProgramWrap{ background:#fbfbfb; }
+    .readershipProgramWrap:after{ content:''; display:block; clear:both; }
+        .redeashipProgramTextArea{ width:419px; float:left; padding:10px 40px 20px; }
+            .redeashipProgramTextArea .ProgramTextArea{ padding-top:90px; }
+                .redeashipProgramTextArea .ProgramTextArea h2{ font-size:18px; font-weight:bold; color:#000; }
+                .redeashipProgramTextArea .ProgramTextArea p{ font-size:14px; color:#666; margin-top:15px; line-height:20px; }
+        .redeashipProgramLinkArea{ width:501px; height:680px; float:left; background:url('../img/sub/bg_readershipProgramLinkArea.png') left 10px no-repeat; padding-bottom:20px; position:relative; }
+            .redeashipProgramLinkArea .programLinkArea{ position:absolute; left:0; top:0; }
+            .redeashipProgramLinkArea .programLinkArea > a{ display:block; text-decoration:none; }
+            .redeashipProgramLinkArea .programLinkArea > a h2{ font-size:16px; font-weight:bold; color:#000; text-align:center; }
+            .redeashipProgramLinkArea .programLinkArea > a p{ font-size:16px; color:#000; text-align:center; }
+                .redeashipProgramLinkArea .programLinkArea01{ width:120px; top:110px; left:90px; }
+                .redeashipProgramLinkArea .programLinkArea02{ width:140px; top:125px; left:292px; }
+                .redeashipProgramLinkArea .programLinkArea03{ top:255px; left:199px; }
+                    .redeashipProgramLinkArea .programLinkArea03 a h2{ font-size:14px; font-weight:bold; color:#000; text-align:center; }
+                    .redeashipProgramLinkArea .programLinkArea03 a p{ font-size:14px; color:#000; text-align:center; }
+                .redeashipProgramLinkArea .programLinkArea04{ width:100px; top:352px; left:300px; }
+                    .redeashipProgramLinkArea .programLinkArea04 a h2{ font-size:14px; font-weight:bold; color:#000; text-align:center; }
+                    .redeashipProgramLinkArea .programLinkArea04 a p{ font-size:14px; color:#000; text-align:center; }
+                .redeashipProgramLinkArea .programLinkArea05{ width:80px; top:415px; left:199px; }
+                    .redeashipProgramLinkArea .programLinkArea05 a h2{ font-size:14px; font-weight:bold; color:#000; text-align:center; }
+                    .redeashipProgramLinkArea .programLinkArea05 a p{ font-size:14px; color:#000; text-align:center; }
+                .redeashipProgramLinkArea .programLinkArea06{ width:105px; top:465px; left:40px; }
+                .redeashipProgramLinkArea .programLinkArea07{ width:100px; top:549px; left:315px; }
+                .redeashipProgramLinkArea .programLinkArea08{ width:100px; top:564px; left:179px; }
+                    .redeashipProgramLinkArea .programLinkArea08 a h2{ font-size:14px; font-weight:bold; color:#000; text-align:center; }
+                    .redeashipProgramLinkArea .programLinkArea08 a p{ font-size:14px; color:#000; text-align:center; }
+                .redeashipProgramLinkArea .programLinkArea09{ width:65px; top:625px; left:84px; }
+                    .redeashipProgramLinkArea .programLinkArea09 a h2{ font-size:12px; font-weight:bold; color:#000; text-align:center; }
+                    .redeashipProgramLinkArea .programLinkArea09 a p{ font-size:12px; color:#000; text-align:center; }
+
+        /* 레이어박스 */
+        .layerContent_mainContentBox{ border:1px solid #e2e4e3; padding:30px; }
+            h3.layerContent_mainContentBox_title{ font-size:16px; color:#000; font-weight:bold; }
+            ul.layerContent_mainContentBox_list{ margin-top:17px; }
+                ul.layerContent_mainContentBox_list ol{ font-size:14px; color:#666; padding-bottom:5px; }
+                    ul.layerContent_mainContentBox_list ol span{ font-size:18px; font-weight:bold; color:#0075b5; vertical-align:middle; }
