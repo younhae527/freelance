@@ -178,3 +178,12 @@
 
                 ul.layerContent_method_list li{ font-size:14px; color:#666; background:url('../img/sub/common/ico_dotBulit.gif') left 12px no-repeat; padding:5px 0 5px 10px; }
                     ul.layerContent_method_list li span{ color:#007db5; padding-right:10px; }
+
+    /* 서브_셀프러닝 기타 외부과정 */
+    .selfLearning04_txt{ font-size:16px; color:#666; margin-top:10px; line-height:20px; }
+    ul.selfLearning04_list{ margin:15px 0 20px; }
+    ul.selfLearning04_list li{ font-size:14px; color:#666; padding-bottom:10px; }
+        ul.selfLearning04_list li span{ font-weight:bold; color:#000; padding-right:20px; }
+
+
+
