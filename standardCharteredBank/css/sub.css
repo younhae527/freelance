@@ -90,3 +90,37 @@
                     table.tabelType02 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
                     table.tabelType02 tbody td ul.tableList02 li{ width:650px; }
             table.tabelType02 tbody tr.last th, table.tabelType01 tbody tr.last td{ border-bottom:1px solid #999; }
+
+    /* 서브_리더쉽_리더십 목적,포부 */
+    .contentWrap h2.contentTitle{ font-size:24px; font-weight:normal; color:#000; padding-bottom:20px; }
+    .contentWrap h3.contentSubTitle{ font-size:20px; font-weight:normal; color:#000; }
+    .contentWrap .contentImgWrap{ text-align:center; margin:50px 0; }
+    .contentWrap .contentTwoDepth{ border-top:1px solid #e0e2e1; }
+    .contentWrap .contentTwoDepth:after{ content:''; display:block; clear:both; }
+        .contentWrap .contentTwoDepth .contentLeftDepth{ width:500px; float:left; }
+        .contentWrap .contentTwoDepth .contentRightDepth{ width:500px; float:left; }
+            .contentWrap .contentTwoDepth .contentBox{ height:130px; padding:18px 45px 19px 0; border-bottom:1px solid #e0e2e1; }
+                .contentWrap .contentTwoDepth .contentBox .contentDepthTitle{ font-size:18px; font-weight:bold; color:#000; padding-bottom:10px; }
+                .contentWrap .contentTwoDepth .contentBox .contentDepthText{ font-size:14px; color:#666; line-height:26px; }
+    .contentWrap p.blockbulit{ font-size:14px; color:#2688ba; margin-top:20px; background:url('../img/sub/common/ico_blockBulit.gif') left 7px no-repeat; padding-left:15px; line-height:20px; }
+
+    /* 서브_리더십 개발 */
+    .contentStepWrap{ margin:45px 0; }
+        .contentStepWrap .contentStep{ background:url('../img/sub/bg_readership02.gif') left bottom no-repeat; margin-top:20px; }
+            .contentStepWrap .contentStep .contentStepTitle{ font-size:20px; font-weight:bold; color:#000; padding-bottom:24px; }
+            .contentStepWrap .contentStep .contentStepTitle span{ color:#2688ba; }
+            .contentStepWrap .contentStep .contentStepText{ font-size:14px; color:#666; line-height:26px; padding-bottom:27px; }
+         .contentStepWrap .contentStep04{ background:none; }
+
+    /* 서브_리더십 원칙 */
+    .contentWrap .contentTwoDepth .contentBox_01{ height:150px; padding:18px 45px 19px 0; border-bottom:1px solid #e0e2e1; }
+            .contentWrap .contentTwoDepth .contentBox_01{ padding-left:140px; }
+            .contentWrap .contentTwoDepth .contentBox_01 .contentDepthTitle{ font-size:18px; font-weight:bold; color:#000; padding-bottom:10px; }
+            .contentWrap .contentTwoDepth .contentBox_01 .contentDepthSubTitle{ font-size:16px; color:#aaa; font-weight:bold; }
+            .contentWrap .contentTwoDepth .contentBox_01 .contentDepthText{ font-size:14px; color:#666; line-height:26px; }
+                .contentWrap .contentTwoDepth .contentBox_01_01{ background:url('../img/sub/bg_readership03_01.gif') left center no-repeat; }
+                .contentWrap .contentTwoDepth .contentBox_01_02{ background:url('../img/sub/bg_readership03_02.gif') left center no-repeat; }
+                .contentWrap .contentTwoDepth .contentBox_01_03{ background:url('../img/sub/bg_readership03_03.gif') left center no-repeat; }
+                .contentWrap .contentTwoDepth .contentBox_01_04{ background:url('../img/sub/bg_readership03_04.gif') left center no-repeat; }
+                .contentWrap .contentTwoDepth .contentBox_01_05{ background:url('../img/sub/bg_readership03_05.gif') left center no-repeat; }
+                .contentWrap .contentTwoDepth .contentBox_01_06{ background:url('../img/sub/bg_readership03_06.gif') left center no-repeat; }
