@@ -158,8 +158,23 @@
                     .redeashipProgramLinkArea .programLinkArea09 a p{ font-size:12px; color:#000; text-align:center; }
 
         /* 레이어박스 */
+        .redeashipProgramLinkArea .layerview{ width:940px; height:1180px; margin:-500px 0 0 -650px; }
+        .redeashipProgramLinkArea .layerview .layerContentWrap{ height:1050px; }
         .layerContent_mainContentBox{ border:1px solid #e2e4e3; padding:30px; }
             h3.layerContent_mainContentBox_title{ font-size:16px; color:#000; font-weight:bold; }
             ul.layerContent_mainContentBox_list{ margin-top:17px; }
                 ul.layerContent_mainContentBox_list ol{ font-size:14px; color:#666; padding-bottom:5px; }
                     ul.layerContent_mainContentBox_list ol span{ font-size:18px; font-weight:bold; color:#0075b5; vertical-align:middle; }
+            p.layerContent_mainContentBox_txt{ font-size:14px; color:#666; line-height:20px; }
+            table.tabelType03{ width:100%; margin-top:25px; }
+                table.tabelType03 th{ border-top:1px solid #000; border-bottom:1px solid #999; font-size:14px; color:#000; text-align:center; padding:10px 0; }
+                table.tabelType03 td{ border-bottom:1px solid #999; font-size:14px; color:#666; padding:10px 0; text-align:center; }
+            .layerContent_mainContentBox_BgWrap{ background:url('../img/sub/layerContent_mainContentBox_BgWrap.gif') right top no-repeat; margin-top:40px; }
+                ul.layerContent_module_list li{ font-size:14px; color:#0075b5; background:url('../img/sub/common/ico_dotBulit.gif') left 7px no-repeat; padding-left:10px; }
+                    ul.layerContent_module_Innerlist{ margin:10px 0; }
+                        ul.layerContent_module_Innerlist ol{ font-size:14px; color:#666; padding:5px 0; }
+
+                ul.layerContent_whois_list li{ font-size:14px; color:#666; background:url('../img/sub/common/ico_dotBulit.gif') left 12px no-repeat; padding:5px 0 5px 10px; }
+
+                ul.layerContent_method_list li{ font-size:14px; color:#666; background:url('../img/sub/common/ico_dotBulit.gif') left 12px no-repeat; padding:5px 0 5px 10px; }
+                    ul.layerContent_method_list li span{ color:#007db5; padding-right:10px; }
