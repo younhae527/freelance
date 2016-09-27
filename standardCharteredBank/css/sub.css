@@ -187,3 +187,78 @@
 
 
 
+/*셀프러닝*/
+h4.contmTitle { color:#333; font-size:16px; padding:1px 10px 2px 34px;background:url("../img/sub/tableBlit.gif") no-repeat left 0 ; }
+.txtStyle01_Mb37 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:37px; }
+.txtStyle01_Mb37.ul { line-height:25px; }
+.txtStyle01_Mb37.ul .depth2 { margin-left:15px; }
+.txtStyle01_Mb37.ul .depth3 {  }
+.txtStyle01_Mb37.ul .depth3 li {     text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
+
+.txtStyle01_Mb24 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:24px; }
+.txtStyle01_Mb24.ul { line-height:25px; }
+.txtStyle01_Mb24.ul .depth2 { margin-left:15px; }
+.txtStyle01_Mb24.ul .depth3 {  }
+.txtStyle01_Mb24.ul .depth3 li {     text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
+
+
+.normalTxtBox { line-height:25px; }
+.normalTxtBox02 { line-height:20px; }
+.thUl { line-height:25px; }
+.tableType01.contT { margin-top:14px; }
+.grayArrowUl {  }
+.grayArrowUl:after { content:""; display:block; clear:both; }
+.grayArrowUl li { float:left; margin-right:17px; padding-right:45px; line-height:18px; padding-bottom:5px; }
+.grayArrowUl li.last { background:none; }
+.grayArrowUl li.txt01 { padding-bottom:10px; padding-top:7px; }
+table.grayArrowT tbody td { border:none; background:url("../img/sub/tableArrow.gif") no-repeat right center; }
+table.grayArrowT tbody td.last { background:none; }
+
+.txtStyle02_Mb40 { margin-bottom:40px; }
+.txtStyle02_Mb40 li.tit { padding-left:14px; background:url("../img/sub/blitBlue.gif") no-repeat left center; }
+.txtStyle02_Mb40 li { font-size:14px; padding-left:9px; line-height:24px; background:url("../img/sub/blitGray.gif") no-repeat left center; }
+.txtStyle02_Mb40 li.normal { background:none; padding-left:0; }
+
+.txtStyle02_Mb23 { margin-bottom:23px; }
+.txtStyle02_Mb23 li.tit { padding-left:14px; background:url("../img/sub/blitBlue.gif") no-repeat left center; }
+.txtStyle02_Mb23 li { font-size:14px; padding-left:9px; line-height:24px; background:url("../img/sub/blitGray.gif") no-repeat left center; }
+.txtStyle02_Mb23 li.normal { background:none; padding-left:0; }
+.color0281b6 { color:#0281b6 !important; }
+
+.txtStyle03_Mb20 { margin-bottom:20px; }
+.txtStyle03_Mb20 li { font-size:14px; color:#666; font-weight:bold; padding-left:9px; line-height:25px; }
+.txtStyle03_Mb20 .depth2 { margin-left:5px; }
+
+.tableType03{ width:100%; margin-bottom:26px; border-top:1px solid #000; }
+table.tableType03 thead th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; border-right:1px solid #e0e2e1; padding:18px 0; }
+table.tableType03 thead th.first,
+table.tableType03 thead th.last,
+table.tableType03 tbody th.last,
+table.tableType03 tbody td.last{ border-right:none; }
+
+table.tableType03 tbody th { border-right:1px solid #e0e2e1; }
+
+table.tableType03 tbody th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #e0e2e1; padding:18px 8px 18px 8px; text-align:left; }
+table.tableType03 tbody td{ font-size:14px; color:#666; text-align:left; border-right:1px solid #e0e2e1; border-bottom:1px solid #e0e2e1; padding:18px 8px 18px 8px; }
+table.tableType03 tbody td a.listTitle{ display:block; color:#666; }
+table.tableType03 tbody td a.listTitle:hover, table.tableType03 tbody td a.listTitle.on{ display:block; color:#3d90bf; }
+table.tableType03 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
+table.tableType03 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left 7px no-repeat; padding:0 0 7px 15px; float:left; }
+table.tableType03 tbody td ul.tableList01 li{ width:326px; }
+table.tableType03 tbody td ul.tableList li a{ display:block; color:#666; }
+table.tableType03 tbody td ul.tableList li a.listTitle:hover, table.tableType03 tbody td ul.tableList li a.listTitle.on{ color:#3d90bf; text-decoration:underline; }
+table.tableType03 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
+table.tableType03 tbody td ul.tableList02 li{ width:650px; }
+table.tableType03 tbody td ul.tableList03 li{ clear:both; }
+
+
+.titleNoneblit { font-size:16px; color:#000; margin-bottom:18px; }
+
+.selfLearning05_list { margin-bottom:47px; }
+.selfLearning05_list li { font-size:14px; line-height:25px; }
+.selfLearning05_list li span{ font-size:16px; font-weight:bold; color:#000; display:inline-block; width:120px; }
+
+.center { text-align:center !important; }
+.left { text-align:left !important; }
+.right { text-align:right !important; }
+.bold { font-weight:bold; }
