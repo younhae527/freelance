@@ -201,7 +201,6 @@ h4.contmTitle { color:#333; font-size:16px; padding:1px 10px 2px 34px;background
 .txtStyle01_Mb24.ul .depth3 {  }
 .txtStyle01_Mb24.ul .depth3 li {     text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
 
-
 .normalTxtBox { line-height:25px; }
 .normalTxtBox02 { line-height:20px; }
 .thUl { line-height:25px; }
@@ -251,7 +250,7 @@ table.tableType03 tbody td p{ font-size:14px; font-weight:bold; color:#000; marg
 table.tableType03 tbody td ul.tableList02 li{ width:650px; }
 table.tableType03 tbody td ul.tableList03 li{ clear:both; }
 
-
+.selfLearning_summary{ font-size:13px; color:#000; padding-bottom:10px; }
 .titleNoneblit { font-size:16px; color:#000; margin-bottom:18px; }
 
 .selfLearning05_list { margin-bottom:47px; }

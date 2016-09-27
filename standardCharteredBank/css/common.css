@@ -44,6 +44,9 @@
 /* background_공통 */
 .bgNone{background:none !important;}
 
+/* font color_공통 */
+.crl2688ba{ color:#2688ba !important; }
+
 /* padding_공통 */
 .pt_0{padding-top:0 !important;}
 .pt_5{padding-top:5px !important;}
