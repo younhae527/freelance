@@ -185,8 +185,6 @@
     ul.selfLearning04_list li{ font-size:14px; color:#666; padding-bottom:10px; }
         ul.selfLearning04_list li span{ font-weight:bold; color:#000; padding-right:20px; }
 
-
-
 /*셀프러닝*/
 h4.contmTitle { color:#333; font-size:16px; padding:1px 10px 2px 34px;background:url("../img/sub/tableBlit.gif") no-repeat left 0 ; }
 .txtStyle01_Mb37 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:37px; }
@@ -264,6 +262,13 @@ a.selfLearning_down{ padding-right:60px; background:#007db5 url('../img/sub/comm
 .left { text-align:left !important; }
 .right { text-align:right !important; }
 .bold { font-weight:bold; }
+
+.textBox01 .subSmallTit { font-size:16px; font-weight:bold; color:#000; margin-bottom:15px; }
+.textBox01 { border:1px solid #e2e4e3; padding:30px; }
+.textBox01 ol li { color:#666666; font-size:14px; line-height:23px; }
+.textBox01 ol li span { color:#007db5; font-weight:bold; font-size:18px; }
+
+.medalT { margin-top:15px; }
 
 /* 서비스 준비중 */
 .preparingWrap{ height:517px; border-top:1px solid #000; border-bottom:1px solid #999; background:url('../img/sub/common/commingSoon_Img.gif') center 105px no-repeat; }
