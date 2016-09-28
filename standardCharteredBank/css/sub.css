@@ -186,18 +186,20 @@
         ul.selfLearning04_list li span{ font-weight:bold; color:#000; padding-right:20px; }
 
 /*셀프러닝*/
-h4.contmTitle { color:#333; font-size:16px; padding:1px 10px 2px 34px;background:url("../img/sub/tableBlit.gif") no-repeat left 0 ; }
-.txtStyle01_Mb37 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:37px; }
+h4.contmTitle { font-size:18px; font-weight:bold; color:#000; margin-bottom:10px; padding-left:32px; padding-top:20px; padding-bottom:2px; background:url('../img/sub/tableBlit.gif') no-repeat left 21px; }
+.txtStyle01_Mb37 { color:#7a7a7a; font-size:16px; margin-top:16px; margin-bottom:37px; }
 .txtStyle01_Mb37.ul { line-height:25px; }
 .txtStyle01_Mb37.ul .depth2 { margin-left:15px; }
 .txtStyle01_Mb37.ul .depth3 {  }
-.txtStyle01_Mb37.ul .depth3 li {     text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
+.txtStyle01_Mb37.ul .depth3 li { text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
+
+.txtStyle02_Mb37 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:37px; }
 
 .txtStyle01_Mb24 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:24px; }
 .txtStyle01_Mb24.ul { line-height:25px; }
 .txtStyle01_Mb24.ul .depth2 { margin-left:15px; }
 .txtStyle01_Mb24.ul .depth3 {  }
-.txtStyle01_Mb24.ul .depth3 li {     text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
+.txtStyle01_Mb24.ul .depth3 li { text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
 
 .normalTxtBox { line-height:25px; }
 .normalTxtBox02 { line-height:20px; }
