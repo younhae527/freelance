@@ -279,6 +279,32 @@ a.selfLearning_down{ padding-right:60px; background:#007db5 url('../img/sub/comm
     .preparingWrap p.text{ font-size:17px; color:#a3a3a3; text-align:center; margin-top:18px; }
 
 /* 서브_SC글로벌스페이스스 */
+.boardTop{ margin-bottom:14px; }
+.boardTop:after{ content:''; display:block; clear:both; }
+    .boardTop p.total{ float:left; font-size:16px; color:#666; text-align:left; padding-top:20px; }
+        .boardTop p.total span{ font-weight:bold; color:#0075b5; }
+    .boardTop .totalSearch{ float:right; width:218px; height:41px; background:url('../img/sub/bg_boardSearch.gif') right top no-repeat; }
+        .boardTop .totalSearch:hover{ background:url('../img/sub/bg_boardSearch_hover.gif') right top no-repeat; }
+        .boardTop .totalSearch input[type="text"]{ border:none; height:39px; margin:1px 0 0 1px; }
+
+table.boardlist{ width:100%; border-top:1px solid #000; }
+    table.boardlist td{ font-size:14px; color:#000; text-align:left; border-bottom:1px solid #e0e2e1; padding:17px 0; }
+    table.boardlist td:after{ content:''; display:block; clear:both; }
+    table.boardlist td.last{ border-bottom:1px solid #999; }
+            table.boardlist td .listTxtArea{ float:left; }
+                table.boardlist td .listTitle a{ padding-left:5px; font-size:16px; color:#000; font-weight:bold; display:inline-block; }
+                table.boardlist td .listTitle a.new{ background:url('../img/sub/common/ico_new.gif') right center no-repeat; padding-right:30px; }
+
+                table.boardlist td .listWriteInfo{ padding-top:10px; }
+                table.boardlist td .listWriteInfo span{ font-size:14px; color:#666; background:url('../img/sub/common/ico_bar.gif') right center no-repeat; padding:0 10px; }
+                table.boardlist td .listWriteInfo span.listInfoImg, table.boardlist td .listWriteInfo span.last{ background:none; }
+                table.boardlist td .listWriteInfo span.listInfoImg img{ border-radius:16px; }
+
+            table.boardlist td .listCommentArea{ float:right; padding:20px 12px 20px 0; }
+                table.boardlist td .listCommentArea span{ vertical-align:middle; font-size:14px; }
+                    table.boardlist td .listCommentArea span.recommend_complete{ color:#0075b5; }
+                    table.boardlist td .listCommentArea span.recommend_stand{ color:#c50015; }
+
 table.boardWrite{ width:100%; border-top:1px solid #000; }
     table.boardWrite th, table.boardWrite td{ font-size:14px; color:#000; text-align:left; border-bottom:1px solid #e0e2e1; padding:17px 0; }
     table.boardWrite td{ padding:6px 0; }
@@ -289,6 +315,7 @@ table.boardWrite{ width:100%; border-top:1px solid #000; }
         table.boardWrite td select{ width:216px; height:34px; border:1px solid #ccc; }
         table.boardWrite td p.fileSummary{ font-size:14px; color:#666; padding-top:5px; }
 
+.buttonRight{ text-align:right; margin:20px 0 30px; }
 
 a.blueBtn{ padding:14px 27px; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; text-decoration:none; }
     a.blueBtn:hover{ background:#0067a4; }
