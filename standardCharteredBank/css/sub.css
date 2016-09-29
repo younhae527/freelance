@@ -279,6 +279,8 @@ a.selfLearning_down{ padding-right:60px; background:#007db5 url('../img/sub/comm
     .preparingWrap p.text{ font-size:17px; color:#a3a3a3; text-align:center; margin-top:18px; }
 
 /* 서브_SC글로벌스페이스스 */
+.boardWrap:after{ content:''; display:block; clear:both; }
+
 .boardTop{ margin-bottom:14px; }
 .boardTop:after{ content:''; display:block; clear:both; }
     .boardTop p.total{ float:left; font-size:16px; color:#666; text-align:left; padding-top:20px; }
@@ -305,6 +307,26 @@ table.boardlist{ width:100%; border-top:1px solid #000; }
                     table.boardlist td .listCommentArea span.recommend_complete{ color:#0075b5; }
                     table.boardlist td .listCommentArea span.recommend_stand{ color:#c50015; }
 
+table.boardview{ width:100%; border-top:1px solid #000; }
+    table.boardview td{ font-size:14px; color:#000; text-align:left; border-bottom:1px solid #e0e2e1; padding:17px 0; }
+    table.boardview td.last{ border-bottom:1px solid #999; }
+            table.boardview td .listTitle a{ padding-left:5px; font-size:16px; color:#000; font-weight:bold; display:inline-block; }
+            table.boardview td .listTitle a.new{ background:url('../img/sub/common/ico_new.gif') right center no-repeat; padding-right:30px; }
+
+            table.boardview td .listWriteInfo{ padding-top:10px; }
+            table.boardview td .listWriteInfo span{ font-size:14px; color:#666; background:url('../img/sub/common/ico_bar.gif') right center no-repeat; padding:0 10px; }
+            table.boardview td .listWriteInfo span.listInfoImg, table.boardlist td .listWriteInfo span.last{ background:none; }
+            table.boardview td .listWriteInfo span.listInfoImg img{ border-radius:16px; }
+    table.boardview tr.listViewContent td{ padding:23px; }
+        table.boardview tr.listViewContent td .listViewContentImg{ text-align:left; }
+        table.boardview tr.listViewContent td .listViewContentTxt{ margin-top:21px; }
+            table.boardview tr.listViewContent td .listViewContentTxt p{ text-align:left; padding-bottom:13px; font-size:14px; color:#666; }
+        table.boardview tr.listViewContent td .listViewContentFile{ margin-top:28px; font-size:14px; color:#666; background:url('../img/sub/ico_file.gif') left center no-repeat; padding:5px 0 5px 32px; }
+
+.listViewListWrap{ border-top:1px solid #999; border-bottom:1px solid #999; margin-top:-1px; }
+    .listViewListPrev{ border-bottom:1px solid #e0e2e1; font-size:14px; color:#666; background:url('../img/sub/ico_prevList.gif') 21px center no-repeat; padding:19px 0 15px 48px; }
+    .listViewListNext{ font-size:14px; color:#666; background:url('../img/sub/ico_nextList.gif') 21px center no-repeat; padding:19px 0 15px 48px; }
+
 table.boardWrite{ width:100%; border-top:1px solid #000; }
     table.boardWrite th, table.boardWrite td{ font-size:14px; color:#000; text-align:left; border-bottom:1px solid #e0e2e1; padding:17px 0; }
     table.boardWrite td{ padding:6px 0; }
@@ -315,9 +337,31 @@ table.boardWrite{ width:100%; border-top:1px solid #000; }
         table.boardWrite td select{ width:216px; height:34px; border:1px solid #ccc; }
         table.boardWrite td p.fileSummary{ font-size:14px; color:#666; padding-top:5px; }
 
-.buttonRight{ text-align:right; margin:20px 0 30px; }
+.albumListWrap{ width:320px; height:341px; float:left; margin-right:20px; margin-bottom:19px; }
+    .albumListWrap03, .albumListWrap06{ margin-right:0; }
+        .albumListWrap a{ display:block; border:1px solid #e0e2e1; text-decoration:none; }
+            .albumListWrap a:hover{ border:1px solid #0075b5; }
+            .albumListWrap a .albumListTitle{ font-size:16px; font-weight:bold; color:#000; padding:23px 16px 15px 22px; }
+            .albumListWrap a .albumListContent{ font-size:14px; color:#666; }
+                .albumListWrap a .albumListContent p{ font-size:14px; color:#666; padding:0 21px; line-height:27px; }
+                .albumListWrap a .albumListInfoWrap{ padding:10px 15px; }
+                .albumListWrap a .albumListInfoWrap:after{ content:''; display:block; clear:both; }
+                    .albumListWrap a .albumListInfoWrap .listWriteInfo{ float:left; }
+                        .albumListWrap a .albumListInfoWrap .listWriteInfo span{ font-size:14px; color:#666; padding:0 10px; }
+                            .albumListWrap a .albumListInfoWrap .listWriteInfo span.listInfoImg img{ border-radius:16px; }
+                    .albumListWrap a .albumListInfoWrap .listWriteDate{ float:right; font-size:14px; color:#666; padding:5px 0; }
+
+.buttonWrap{ padding:20px 0; }
+.buttonWrap:after{ content:''; display:block; clear:both; }
+    .buttonWrap .btnLeft{ float:left; }
+        .buttonWrap .btnLeft a{ margin-right:12px; }
+    .buttonWrap .btnRight{ float:right; }
+
+.buttonRight{ text-align:right; margin:20px 0 10px; }
 
 a.blueBtn{ padding:14px 27px; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; text-decoration:none; }
     a.blueBtn:hover{ background:#0067a4; }
 a.whiteBtn{ padding:13px 27px; display:inline-block; color:#000; background:#f7f7f7; font-size:14px; text-align:center; text-decoration:none; border:1px solid #bebebe; }
     a.whiteBtn:hover{ background:#f2f2f2; border:1px solid #aaa; }
+a.grayBtn{ padding:14px 27px; display:inline-block; color:#fff; background:#696a6c; font-size:14px; text-align:center; text-decoration:none; }
+    a.grayBtn:hover{ background:#545557; }

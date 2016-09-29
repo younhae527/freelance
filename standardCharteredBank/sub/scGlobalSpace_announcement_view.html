@@ -96,52 +96,79 @@
             </div>
             <!-- //topQuick -->
             <div class="boardWrap">
-                <table cellpadding="0" cellspacing="0" class="boardWrite">
+                <div class="boardTop">
+                    <p class="total">Total <span>50</span></p>
+                    <div class="totalSearch">
+                        <input type="text" value="" placeholder="Search" />
+                    </div>
+                </div>
+                <!-- //boardTop -->
+                <table cellpadding="0" cellspacing="0" class="boardview">
                     <colgroup>
-                        <col width="15%" />
-                        <col width="*" />
+                        <col width="" />
                     </colgroup>
                     <tbody>
-                    <tr>
-                        <th>소속부서</th>
-                        <td>
-                            <select>
-                                <option>CIB Learning Space</option>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>제목</th>
-                        <td>
-                            <input type="text" value="" placeholder="제목을 입력하세요." />
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>내용</th>
-                        <td>
-                            <textarea placeholder="내용을 입력하세요."></textarea>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>첨부파일</th>
-                        <td>
-                            <input type="file" value="" />
-                            <p class="fileSummary">첨부파일 총 용량은 10MB 입니다.</p>
-                            <p class="fileSummary">이미지파일(jpg, png, bmp, gif, tif), 문서파일(hwp, txt, pdf, doc, docx, xls, xlsx gul)만 가능합니다.</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th class="last">외부동영상 링크</th>
-                        <td class="last">
-                            <input type="text" value="" />
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                                <div class="listTxtArea">
+                                    <div class="listTitle">
+                                        <a href="javascript:;" class="new">Global 연수 일정을 안내합니다.</a>
+                                    </div>
+                                    <!-- //listTitle -->
+                                    <div class="listWriteInfo">
+                                        <span class="listInfoImg"><img src="../img/sub/img_infoPic01.gif" alt="" /></span><span>Kim Hyun-soo</span><span>1주전</span><span class="last">CIB Learning Space</span>
+                                    </div>
+                                    <!-- //listTitle -->
+                                </div>
+                                <!-- //listTxtArea -->
+                            </td>
+                        </tr>
+                        <tr class="listViewContent">
+                            <td>
+                                <div class="listViewContentImg">
+                                    <img src="../img/sub/listContentImgSample.gif" alt="" />
+                                </div>
+                                <!-- //listViewContentImg -->
+                                <div class="listViewContentTxt">
+                                    <p>
+                                        Teamwork 항상을 위한 소통 및 갈등관리
+                                    </p>
+                                    <p>
+                                        서로 다름을 인정하고 그 안에서 발생하는 갈등 상황을 중립적인 관점에서 원인과 해결방안을 찾아 협력 관계로 전환해 나가는 과정
+                                    </p>
+                                </div>
+                                <!-- //listViewContentTxt -->
+                                <div class="listViewContentFile">
+                                    Filename01.txt
+                                </div>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
-                <div class="buttonCenter">
-                    <a href="javascript:;" class="whiteBtn">취소</a>
-                    <a href="javascript:;" class="blueBtn">저장</a>
+                <div class="listViewListWrap">
+                    <div class="listViewListPrev">
+                        이전글 제목입니다.
+                    </div>
+                    <!-- //listViewListPrev -->
+                    <div class="listViewListNext">
+                        다음글 제목입니다.
+                    </div>
+                    <!-- //listViewListPrev -->
                 </div>
+                <!-- //listViewListWrap -->
+                <div class="buttonWrap">
+                    <div class="btnLeft">
+                        <a href="javascript:;" class="whiteBtn">수정</a>
+                        <a href="javascript:;" class="whiteBtn">삭제</a>
+                        <a href="javascript:;" class="blueBtn">답변</a>
+                    </div>
+                    <!-- //buttonLeft -->
+                    <div class="btnRight">
+                        <a href="javascript:;" class="grayBtn">목록</a>
+                    </div>
+                    <!-- //buttonRight -->
+                </div>
+                <!-- //buttonWrap -->
             </div>
             <!-- //boardWrap -->
         </div>
