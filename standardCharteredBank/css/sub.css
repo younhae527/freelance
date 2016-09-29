@@ -67,6 +67,7 @@
                                 a.down{ background:#007db5 url('../img/sub/common/ico_down.png') 80% center no-repeat; padding-right:20px; text-decoration:none; }
                                     a.down:hover{ background:#0067a4 url('../img/sub/common/ico_down.png') 80% center no-repeat; }
 
+
                     table.tableType01 tbody tr.last th, table.tableType01 tbody tr.last td{ border-bottom:1px solid #999; }
                 p.tableSummary{ font-size:14px; color:#666; margin-bottom:5px; }
 
@@ -276,3 +277,20 @@ a.selfLearning_down{ padding-right:60px; background:#007db5 url('../img/sub/comm
 .preparingWrap{ height:517px; border-top:1px solid #000; border-bottom:1px solid #999; background:url('../img/sub/common/commingSoon_Img.gif') center 105px no-repeat; }
     .preparingWrap p.title{ font-size:30px; text-align:center; color:#000; margin-top:315px; }
     .preparingWrap p.text{ font-size:17px; color:#a3a3a3; text-align:center; margin-top:18px; }
+
+/* 서브_SC글로벌스페이스스 */
+table.boardWrite{ width:100%; border-top:1px solid #000; }
+    table.boardWrite th, table.boardWrite td{ font-size:14px; color:#000; text-align:left; border-bottom:1px solid #e0e2e1; padding:17px 0; }
+    table.boardWrite td{ padding:6px 0; }
+    table.boardWrite th.last, table.boardWrite td.last{ border-bottom:1px solid #999; }
+        table.boardWrite td input[type="text"], table.boardWrite td input[type="file"], table.boardWrite td textarea{ width:858px; height:34px; padding:0 5px; border:1px solid #ccc; }
+        table.boardWrite td input[type="file"]{ height:24px; padding:5px 5px 5px 5px; }
+        table.boardWrite td textarea{ height:300px; padding:5px; }
+        table.boardWrite td select{ width:216px; height:34px; border:1px solid #ccc; }
+        table.boardWrite td p.fileSummary{ font-size:14px; color:#666; padding-top:5px; }
+
+
+a.blueBtn{ padding:14px 27px; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; text-decoration:none; }
+    a.blueBtn:hover{ background:#0067a4; }
+a.whiteBtn{ padding:13px 27px; display:inline-block; color:#000; background:#f7f7f7; font-size:14px; text-align:center; text-decoration:none; border:1px solid #bebebe; }
+    a.whiteBtn:hover{ background:#f2f2f2; border:1px solid #aaa; }
