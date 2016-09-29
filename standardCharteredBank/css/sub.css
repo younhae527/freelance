@@ -294,8 +294,8 @@ table.boardlist{ width:100%; border-top:1px solid #000; }
     table.boardlist td:after{ content:''; display:block; clear:both; }
     table.boardlist td.last{ border-bottom:1px solid #999; }
             table.boardlist td .listTxtArea{ float:left; }
-                table.boardlist td .listTitle a{ padding-left:5px; font-size:16px; color:#000; font-weight:bold; display:inline-block; }
-                table.boardlist td .listTitle a.new{ background:url('../img/sub/common/ico_new.gif') right center no-repeat; padding-right:30px; }
+                table.boardlist td .listTxtAreaTitle a{ padding-left:5px; font-size:16px; color:#000; font-weight:bold; display:inline-block; }
+                table.boardlist td .listTxtAreaTitle a.new{ background:url('../img/sub/common/ico_new.gif') right center no-repeat; padding-right:30px; }
 
                 table.boardlist td .listWriteInfo{ padding-top:10px; }
                 table.boardlist td .listWriteInfo span{ font-size:14px; color:#666; background:url('../img/sub/common/ico_bar.gif') right center no-repeat; padding:0 10px; }
@@ -310,8 +310,8 @@ table.boardlist{ width:100%; border-top:1px solid #000; }
 table.boardview{ width:100%; border-top:1px solid #000; }
     table.boardview td{ font-size:14px; color:#000; text-align:left; border-bottom:1px solid #e0e2e1; padding:17px 0; }
     table.boardview td.last{ border-bottom:1px solid #999; }
-            table.boardview td .listTitle a{ padding-left:5px; font-size:16px; color:#000; font-weight:bold; display:inline-block; }
-            table.boardview td .listTitle a.new{ background:url('../img/sub/common/ico_new.gif') right center no-repeat; padding-right:30px; }
+            table.boardview td .listTxtArea a{ padding-left:5px; font-size:16px; color:#000; font-weight:bold; display:inline-block; }
+            table.boardview td .listTxtArea a.new{ background:url('../img/sub/common/ico_new.gif') right center no-repeat; padding-right:30px; }
 
             table.boardview td .listWriteInfo{ padding-top:10px; }
             table.boardview td .listWriteInfo span{ font-size:14px; color:#666; background:url('../img/sub/common/ico_bar.gif') right center no-repeat; padding:0 10px; }
