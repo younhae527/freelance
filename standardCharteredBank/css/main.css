@@ -1,30 +1,30 @@
-.main_containerInnerWrap{ position:relative; width:1000px; margin:0 auto; }
+.main_containerInnerWrap{ position:relative; width:997px; margin:0 auto; }
     .main_containerInner{ border:1px solid #dfe2e4; margin:15px 0; }
     .main_containerInner:after{ content:''; display:block; clear:both; }
         .mainMenu{ width:165px; height:500px; float:left; border-right:1px solid #dfe2e4; }
         .mainMenu:last-child{ border-right:none; }
-            .mainMenu01, .mainMenu03, .mainMenu05{ background:#f3f3f3; }
+            /*.mainMenu01 a, .mainMenu03 a, .mainMenu05 a{ background:; }*/
                 .mainMenu a{ width:165px; height:228px; display:block; text-decoration:none; text-align:center; padding-top:272px; }
                     .mainMenu a p{ line-height:25px; }
                        .mainMenu a p.title{ color:#000; font-size:18px; font-weight:bold; }
                             .mainMenu a p.title span{ display:block; font-size:15px; }
                        .mainMenu a p.subScribe{ color:#666; font-size:14px; padding-top:10px; }
-                       .mainMenu a:hover p.title{ display:none; }
+                       .mainMenu a:hover p.title{ color:#fff; }
                        .mainMenu a:hover p.subScribe{ display:none; }
 
-                    .mainMenu01 a{ background:url('../img/main/bg_mainMenu01.png') center 131px no-repeat; }
+                    .mainMenu01 a{ background:#f3f3f3 url('../img/main/bg_mainMenu01.png') center 131px no-repeat; }
                         .mainMenu01 a:hover{ background:url('../img/main/bg_mainMenu01_hover.gif') left top no-repeat; }
 
                     .mainMenu02 a{ background:url('../img/main/bg_mainMenu02.png') center 131px no-repeat; }
                         .mainMenu02 a:hover{ background:url('../img/main/bg_mainMenu02_hover.gif') left top no-repeat; }
 
-                    .mainMenu03 a{ background:url('../img/main/bg_mainMenu03.png') center 131px no-repeat; }
+                    .mainMenu03 a{ background:#f3f3f3 url('../img/main/bg_mainMenu03.png') center 131px no-repeat; }
                         .mainMenu03 a:hover{ background:url('../img/main/bg_mainMenu03_hover.gif') left top no-repeat; }
 
                     .mainMenu04 a{ background:url('../img/main/bg_mainMenu04.png') center 131px no-repeat; }
                         .mainMenu04 a:hover{ background:url('../img/main/bg_mainMenu04_hover.gif') left top no-repeat; }
 
-                    .mainMenu05 a{ background:url('../img/main/bg_mainMenu05.png') center 131px no-repeat; }
+                    .mainMenu05 a{ background:#f3f3f3 url('../img/main/bg_mainMenu05.png') center 131px no-repeat; }
                         .mainMenu05 a:hover{ background:url('../img/main/bg_mainMenu05_hover.gif') left top no-repeat; }
 
                     .mainMenu06 a{ background:url('../img/main/bg_mainMenu06.png') center 131px no-repeat; }
@@ -38,7 +38,7 @@
                 .board a{ display:block; text-decoration:none; font-size:15px; color:#000; font-weight:bold; padding-right:32px; margin:22px 0 28px; background:url('../img/main/ico_more.gif') right center no-repeat; }
                 .board a:hover, .board a:active{ background:url('../img/main/ico_more_hover.gif') right center no-repeat; }
                 .board00{ padding-left:0; }
-                .board04{ text-decoration:none; font-size:16px; color:#000; font-weight:bold; }
+                .board04{ text-decoration:none; font-size:15px; color:#000; font-weight:bold; }
                     .board04 .bannerBox{ width:208px; height:47px; margin-top:7px; background:#fff; position:relative; }
                     .board04 a{ background:none; margin:0; padding:0; position:absolute; right:0; top:12px; text-indent:-999999px; }
                         .board04 a.bx-prev{ width:23px; height:25px; background:url('../img/main/btn_prev.gif') left top no-repeat; right:36px; }
