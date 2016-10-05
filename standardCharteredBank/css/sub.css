@@ -100,7 +100,7 @@
     .contentWrap .contentTwoDepth:after{ content:''; display:block; clear:both; }
         .contentWrap .contentTwoDepth .contentLeftDepth{ width:500px; float:left; }
         .contentWrap .contentTwoDepth .contentRightDepth{ width:500px; float:left; }
-            .contentWrap .contentTwoDepth .contentBox{ height:130px; padding:18px 30px 19px 0; border-bottom:1px solid #e0e2e1; }
+            .contentWrap .contentTwoDepth .contentBox{ height:130px; padding:35px 30px 19px 0; border-bottom:1px solid #e0e2e1; }
                 .contentWrap .contentTwoDepth .contentBox .contentDepthTitle{ font-size:18px; font-weight:bold; color:#000; padding-bottom:10px; }
                 .contentWrap .contentTwoDepth .contentBox .contentDepthText{ font-size:14px; color:#666; line-height:26px; }
     .contentWrap p.blockbulit{ font-size:14px; color:#2688ba; margin-top:20px; background:url('../img/sub/common/ico_blockBulit.gif') left 7px no-repeat; padding-left:15px; line-height:20px; }
@@ -108,13 +108,13 @@
     /* 서브_리더십 개발 */
     .contentStepWrap{ margin:45px 0; }
         .contentStepWrap .contentStep{ background:url('../img/sub/bg_readership02.gif') left bottom no-repeat; margin-top:20px; }
-            .contentStepWrap .contentStep .contentStepTitle{ font-size:20px; font-weight:bold; color:#000; padding-bottom:24px; }
+            .contentStepWrap .contentStep .contentStepTitle{ font-size:20px; font-weight:bold; color:#000; padding-bottom:10px; }
             .contentStepWrap .contentStep .contentStepTitle span{ color:#2688ba; }
-            .contentStepWrap .contentStep .contentStepText{ font-size:14px; color:#666; line-height:26px; padding-bottom:27px; }
+            .contentStepWrap .contentStep .contentStepText{ font-size:14px; color:#666; line-height:26px; padding-bottom:35px; }
          .contentStepWrap .contentStep04{ background:none; }
 
     /* 서브_리더십 원칙 */
-    .contentWrap .contentTwoDepth .contentBox_01{ height:150px; padding:18px 45px 19px 0; border-bottom:1px solid #e0e2e1; }
+    .contentWrap .contentTwoDepth .contentBox_01{ height:150px; padding:38px 45px 19px 0; border-bottom:1px solid #e0e2e1; }
             .contentWrap .contentTwoDepth .contentBox_01{ padding-left:140px; }
             .contentWrap .contentTwoDepth .contentBox_01 .contentDepthTitle{ font-size:18px; font-weight:bold; color:#000; padding-bottom:10px; }
             .contentWrap .contentTwoDepth .contentBox_01 .contentDepthSubTitle{ font-size:16px; color:#aaa; font-weight:bold; }
@@ -170,7 +170,7 @@
             table.tabelType03{ width:100%; margin-top:25px; }
                 table.tabelType03 th{ border-top:1px solid #000; border-bottom:1px solid #999; font-size:14px; color:#000; text-align:center; padding:10px 0; }
                 table.tabelType03 td{ border-bottom:1px solid #999; font-size:14px; color:#666; padding:10px 0; text-align:center; }
-            .layerContent_mainContentBox_BgWrap{ background:url('../img/sub/layerContent_mainContentBox_BgWrap.gif') right top no-repeat; margin-top:40px; }
+            .layerContent_mainContentBox_BgWrap{ background:url('../img/sub/layerContent_mainContentBox_BgWrap.gif') right 30px no-repeat; margin-top:40px; }
                 ul.layerContent_module_list li{ font-size:14px; color:#0075b5; background:url('../img/sub/common/ico_dotBulit.gif') left 7px no-repeat; padding-left:10px; }
                     ul.layerContent_module_Innerlist{ margin:10px 0; }
                         ul.layerContent_module_Innerlist ol{ font-size:14px; color:#666; padding:5px 0; }
@@ -181,20 +181,20 @@
                     ul.layerContent_method_list li span{ color:#007db5; padding-right:10px; }
 
     /* 서브_셀프러닝 기타 외부과정 */
-    .selfLearning04_txt{ font-size:16px; color:#666; margin-top:10px; line-height:20px; }
-    ul.selfLearning04_list{ margin:15px 0 20px; }
+    .selfLearning04_txt{ font-size:16px; color:#666; margin-top:10px; margin-bottom:30px; line-height:20px; }
+    ul.selfLearning04_list{ margin:15px 0 5px; }
     ul.selfLearning04_list li{ font-size:14px; color:#666; padding-bottom:10px; }
         ul.selfLearning04_list li span{ font-weight:bold; color:#000; padding-right:20px; }
 
 /*셀프러닝*/
 h4.contmTitle { font-size:18px; font-weight:bold; color:#000; margin-bottom:10px; padding-left:32px; padding-top:20px; padding-bottom:2px; background:url('../img/sub/tableBlit.gif') no-repeat left 21px; }
-.txtStyle01_Mb37 { color:#7a7a7a; font-size:16px; margin-top:16px; margin-bottom:37px; }
+.txtStyle01_Mb37 { color:#7a7a7a; font-size:16px; margin-bottom:30px; }
 .txtStyle01_Mb37.ul { line-height:25px; }
 .txtStyle01_Mb37.ul .depth2 { margin-left:15px; }
 .txtStyle01_Mb37.ul .depth3 {  }
 .txtStyle01_Mb37.ul .depth3 li { text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
 
-.txtStyle02_Mb37 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:37px; }
+.txtStyle02_Mb37 { color:#7a7a7a; font-size:14px; margin-top:0px; margin-bottom:5px; }
 
 .txtStyle01_Mb24 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:24px; }
 .txtStyle01_Mb24.ul { line-height:25px; }
@@ -216,16 +216,16 @@ table.grayArrowT tbody td.last { background:none; }
 
 .txtStyle02_Mb40 { margin-bottom:40px; }
 .txtStyle02_Mb40 li.tit { padding-left:14px; background:url("../img/sub/blitBlue.gif") no-repeat left center; }
-.txtStyle02_Mb40 li { font-size:14px; padding-left:9px; line-height:24px; background:url("../img/sub/blitGray.gif") no-repeat left center; }
+.txtStyle02_Mb40 li { font-size:16px; padding-left:9px; line-height:24px; background:url("../img/sub/blitGray.gif") no-repeat left center; }
 .txtStyle02_Mb40 li.normal { background:none; padding-left:0; }
 
-.txtStyle02_Mb23 { margin-bottom:23px; }
+.txtStyle02_Mb23 { margin-bottom:10px; }
 .txtStyle02_Mb23 li.tit { padding-left:14px; background:url("../img/sub/blitBlue.gif") no-repeat left center; }
 .txtStyle02_Mb23 li { font-size:14px; padding-left:9px; line-height:24px; background:url("../img/sub/blitGray.gif") no-repeat left center; }
 .txtStyle02_Mb23 li.normal { background:none; padding-left:0; }
 .color0281b6 { color:#0281b6 !important; }
 
-.txtStyle03_Mb20 { margin-bottom:20px; }
+.txtStyle03_Mb20 { margin-bottom:10px; }
 .txtStyle03_Mb20 li { font-size:14px; color:#666; font-weight:normal; padding-left:9px; line-height:25px; }
 .txtStyle03_Mb20 .depth2 { margin-left:5px; }
 
@@ -252,7 +252,7 @@ table.tableType03 tbody td ul.tableList02 li{ width:650px; }
 table.tableType03 tbody td ul.tableList03 li{ clear:both; }
 
 .selfLearning_summary{ font-size:13px; color:#000; padding-bottom:10px; }
-.titleNoneblit { font-size:14px; color:#000; margin-bottom:18px; }
+.titleNoneblit { font-size:14px; color:#000; margin-bottom:5px; }
 
 a.selfLearning_down{ padding-right:60px; background:#007db5 url('../img/sub/common/ico_down.png') 90% center no-repeat; text-decoration:none; }
     a.selfLearning_down:hover{ background:#0067a4 url('../img/sub/common/ico_down.png') 90% center no-repeat; }
@@ -269,7 +269,7 @@ a.selfLearning_down{ padding-right:60px; background:#007db5 url('../img/sub/comm
 .textBox01 .subSmallTit { font-size:16px; font-weight:bold; color:#000; margin-bottom:15px; }
 .textBox01 { border:1px solid #e2e4e3; padding:30px; }
 .textBox01 ol li { color:#666666; font-size:14px; line-height:23px; }
-.textBox01 ol li span { color:#007db5; font-weight:bold; font-size:18px; }
+.textBox01 ol li span { color:#007db5; font-weight:bold; font-size:18px; vertical-align:middle; }
 
 .medalT { margin-top:15px; }
 
