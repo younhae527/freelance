@@ -3,6 +3,7 @@
 .subTitleWrap{ width:1000px; margin:0 auto; padding:38px 0 36px; }
 .subTitleWrap:after{ content:''; display:block; clear:both; }
     p.subTitle{ float:left; font-size:25px; color:#000; }
+        p.subTitle span{ font-size:16px; color:#000; padding-top:5px; }
     .lineMap{ float:right; }
         .lineMap span{ position:relative; display:inline-block; background:url('../img/sub/common/ico_lineMapArrow.gif') right center no-repeat; padding:0 20px 0 15px; font-size:14px; color:#666; cursor:pointer; }
         .lineMap span:last-child{ background:none; padding-right:0; }
@@ -365,3 +366,11 @@ a.whiteBtn{ padding:13px 27px; display:inline-block; color:#000; background:#f7f
     a.whiteBtn:hover{ background:#f2f2f2; border:1px solid #aaa; }
 a.grayBtn{ padding:14px 27px; display:inline-block; color:#fff; background:#696a6c; font-size:14px; text-align:center; text-decoration:none; }
     a.grayBtn:hover{ background:#545557; }
+
+table.tableType04{ width:100%; margin-bottom:26px; border-top:1px solid #000000; }
+    table.tableType04 thead th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; padding:18px 0 18px 0; text-align:center; }
+    table.tableType04 tbody td{ font-size:14px; color:#666; text-align:left;  border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
+    table.tableType04 tbody td.center{ padding-left:0; text-align:center; }
+    table.tableType04 tbody td.center span.greenBx{ border:1px solid #55a455; color:#55a455; padding:5px; text-align:center; font-size:13px; }
+    table.tableType04 tbody td.center span.blueBx{ border:1px solid #006aa6; color:#006aa6; padding:5px; text-align:center; font-size:13px; }
+    table.tableType04 tbody tr.last th, table.tableType04 tbody tr.last td{ border-bottom:1px solid #999; }
