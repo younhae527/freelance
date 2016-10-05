@@ -49,7 +49,7 @@
                         table.tableType01 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
                             table.tableType01 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left 7px no-repeat; padding:0 0 7px 15px; float:left; }
                             table.tableType01 tbody td ul.tableList01 li{ width:326px; }
-                                table.tableType01 tbody td ul.tableList li a{ display:block; color:#666; }
+                                table.tableType01 tbody td ul.tableList li a.listTitle{ display:block; color:#666; }
                                 table.tableType01 tbody td ul.tableList li a.listTitle:hover, table.tableType01 tbody td ul.tableList li a.listTitle.on{ color:#3d90bf; text-decoration:underline; }
                             table.tableType01 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
                             table.tableType01 tbody td ul.tableList02 li{ width:650px; }
@@ -79,7 +79,7 @@
             table.tabelType02 tbody td{ font-size:14px; color:#666; text-align:left;  border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
                 table.tabelType02 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
                     table.tabelType02 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left center no-repeat; padding:0 0 7px 15px; float:left; }
-                    table.tabelType02 tbody td ul.tableList li a:hover { color:#007db5; }
+                    table.tabelType02 tbody td ul.tableList li a.listTitle:hover { color:#007db5; }
                     table.tabelType02 tbody td ul.tableList01 li{ width:326px; }
                     table.tabelType02 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
                     table.tabelType02 tbody td ul.tableList02 li{ width:650px; }
@@ -238,7 +238,7 @@ table.tableType03 tbody td a.listTitle:hover, table.tableType03 tbody td a.listT
 table.tableType03 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
 table.tableType03 tbody td ul.tableList li{ background:url('../img/sub/common/ico_bulit.gif') left 7px no-repeat; padding:0 0 7px 15px; float:left; }
 table.tableType03 tbody td ul.tableList01 li{ width:326px; }
-table.tableType03 tbody td ul.tableList li a{ display:block; color:#666; }
+table.tableType03 tbody td ul.tableList li a.listTitle{ display:block; color:#666; }
 table.tableType03 tbody td ul.tableList li a.listTitle:hover, table.tableType03 tbody td ul.tableList li a.listTitle.on{ color:#3d90bf; text-decoration:underline; }
 table.tableType03 tbody td p{ font-size:14px; font-weight:bold; color:#000; margin-top:20px; margin-bottom:10px; }
 table.tableType03 tbody td ul.tableList02 li{ width:650px; }
@@ -351,7 +351,7 @@ table.boardWrite{ width:100%; border-top:1px solid #000; }
     .buttonWrap .btnRight{ float:right; }
 
 .buttonCenter{ text-align:center; margin:20px 0 30px; }
-    .buttonCenter a{ padding:17px 50px; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; text-decoration:none; }
+    .buttonCenter a{ padding:17px 50px; display:inline-block; background:#007db5; color:#fff; font-size:14px; text-align:center; text-decoration:none; }
         .buttonCenter a:hover{ background:#0067a4; }
 
 .buttonLeft{ text-align:left; margin:20px 0 30px; }
@@ -359,7 +359,6 @@ table.boardWrite{ width:100%; border-top:1px solid #000; }
         .buttonLeft a:hover{ background:#0067a4; }
     a.down{ background:#fff url('../img/sub/common/ico_down.png') 80% center no-repeat; color:#0075b5; border:1px solid #0075b5; padding-right:20px; text-decoration:none; }
         a.down:hover{ background:#0075b5 url('../img/sub/common/ico_down_hover.png') 80% center no-repeat; color:#fff; }
-
 
 .buttonRight{ text-align:right; margin:20px 0 10px; }
 
@@ -370,9 +369,9 @@ a.whiteBtn{ padding:13px 27px; display:inline-block; color:#000; background:#f7f
 a.grayBtn{ padding:14px 27px; display:inline-block; color:#fff; background:#696a6c; font-size:14px; text-align:center; text-decoration:none; }
     a.grayBtn:hover{ background:#545557; }
 
-table.tableType04{ width:100%; margin-bottom:26px; border-top:1px solid #000000; }
-    table.tableType04 thead th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; padding:18px 0 18px 0; text-align:center; }
-    table.tableType04 tbody td{ font-size:14px; color:#666; text-align:left;  border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
+table.tableType04{ width:100%; margin-bottom:26px; border-top:1px solid #000; }
+    table.tableType04 thead th{ font-size:14px; font-weight:bold; color:#000; border-right:none; border-bottom:1px solid #999; padding:18px 0 18px 0; text-align:center; }
+    table.tableType04 tbody td{ font-size:14px; color:#666; text-align:left; border-right:none; border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
     table.tableType04 tbody td.center{ padding-left:0; text-align:center; }
     table.tableType04 tbody td.center span.greenBx{ border:1px solid #55a455; color:#55a455; padding:5px; text-align:center; font-size:13px; }
     table.tableType04 tbody td.center span.blueBx{ border:1px solid #006aa6; color:#006aa6; padding:5px; text-align:center; font-size:13px; }
