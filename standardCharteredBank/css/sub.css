@@ -2,8 +2,8 @@
 .visual{ width:100%; text-align:center; background:url('../img/sub/learningRoadMap_Visual.gif') center top no-repeat; background-size:100% 200px; font-size:40px; color:#fff; padding:77px 0; }
 .subTitleWrap{ width:1000px; margin:0 auto; padding:38px 0 36px; }
 .subTitleWrap:after{ content:''; display:block; clear:both; }
-    p.subTitle{ float:left; font-size:25px; color:#000; }
-        p.subTitle span{ font-size:16px; color:#000; padding-top:5px; }
+    p.subTitle{ float:left; font-size:30px; color:#000; }
+        p.subTitle span{ font-size:14px; color:#666; padding-top:5px; display:block; }
     .lineMap{ float:right; }
         .lineMap span{ position:relative; display:inline-block; background:url('../img/sub/common/ico_lineMapArrow.gif') right center no-repeat; padding:0 20px 0 15px; font-size:14px; color:#666; cursor:pointer; }
         .lineMap span:last-child{ background:none; padding-right:0; }
@@ -59,14 +59,6 @@
                             .layerTitle{ position:relative; font-size:18px; color:#565656; }
                                 a.closeLayer{ position:absolute; right:0; top:0; }
                             .layerContentWrap{ height:700px; margin-top:30px; overflow-y:auto; }
-                            .buttonCenter{ text-align:center; margin:20px 0 30px; }
-                                .buttonCenter a{ padding:17px 50px; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; text-decoration:none; }
-                                    .buttonCenter a:hover{ background:#0067a4; }
-                            .buttonLeft{ text-align:left; margin:20px 0 30px; }
-                                .buttonLeft a{ width:140px; padding:17px 0; margin-right:10px; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; text-decoration:none; }
-                                    .buttonLeft a:hover{ background:#0067a4; }
-                                a.down{ background:#007db5 url('../img/sub/common/ico_down.png') 80% center no-repeat; padding-right:20px; text-decoration:none; }
-                                    a.down:hover{ background:#0067a4 url('../img/sub/common/ico_down.png') 80% center no-repeat; }
 
 
                     table.tableType01 tbody tr.last th, table.tableType01 tbody tr.last td{ border-bottom:1px solid #999; }
@@ -357,6 +349,17 @@ table.boardWrite{ width:100%; border-top:1px solid #000; }
     .buttonWrap .btnLeft{ float:left; }
         .buttonWrap .btnLeft a{ margin-right:12px; }
     .buttonWrap .btnRight{ float:right; }
+
+.buttonCenter{ text-align:center; margin:20px 0 30px; }
+    .buttonCenter a{ padding:17px 50px; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; text-decoration:none; }
+        .buttonCenter a:hover{ background:#0067a4; }
+
+.buttonLeft{ text-align:left; margin:20px 0 30px; }
+    .buttonLeft a{ width:140px; padding:17px 0; margin-right:10px; display:inline-block; color:#fff; background:#007db5; font-size:14px; text-align:center; text-decoration:none; }
+        .buttonLeft a:hover{ background:#0067a4; }
+    a.down{ background:#fff url('../img/sub/common/ico_down.png') 80% center no-repeat; color:#0075b5; border:1px solid #0075b5; padding-right:20px; text-decoration:none; }
+        a.down:hover{ background:#0075b5 url('../img/sub/common/ico_down_hover.png') 80% center no-repeat; color:#fff; }
+
 
 .buttonRight{ text-align:right; margin:20px 0 10px; }
 
