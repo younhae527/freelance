@@ -20,10 +20,15 @@
     .roadMapWrap:after{ content:''; display:block; clear:both; }
         .roadMap{ width:493px; height:300px; float:left; margin-bottom:17px; text-align:center; color:#fff; }
             .roadMap01{ background:#55a354; margin-right:14px; }
+                .roadMap01 a:hover span.roadMapBtn{ background:#fff; color:#55a354; }
             .roadMap02{ background:#006aa6; }
+                .roadMap02 a:hover span.roadMapBtn{ background:#fff; color:#006aa6; }
             .roadMap03{ background:#1a837b; margin-right:14px; }
+                .roadMap03 a:hover span.roadMapBtn{ background:#fff; color:#1a837b; }
             .roadMap04{ background:#dc9641; }
+                .roadMap04 a:hover span.roadMapBtn{ background:#fff; color:#dc9641; }
             .roadMap05{ background:#08174e; }
+                .roadMap05 a:hover span.roadMapBtn{ background:#fff; color:#08174e; }
             .roadMap a{ display:block; color:#fff; padding:54px 0 50px; text-decoration:none; }
                 .roadMap a span{ display:block; }
                 .roadMap a span.roadMapTitleEng{ font-size:40px; }
@@ -107,10 +112,10 @@
          .contentStepWrap .contentStep04{ background:none; }
 
     /* 서브_리더십 원칙 */
-    .contentWrap .contentTwoDepth .contentBox_01{ height:150px; padding:38px 45px 19px 0; border-bottom:1px solid #e0e2e1; }
+    .contentWrap .contentTwoDepth .contentBox_01{ height:162px; padding:30px 45px 30px 0; border-bottom:1px solid #e0e2e1; }
             .contentWrap .contentTwoDepth .contentBox_01{ padding-left:140px; }
-            .contentWrap .contentTwoDepth .contentBox_01 .contentDepthTitle{ font-size:18px; font-weight:bold; color:#000; padding-bottom:10px; }
-            .contentWrap .contentTwoDepth .contentBox_01 .contentDepthSubTitle{ font-size:16px; color:#aaa; font-weight:bold; }
+            .contentWrap .contentTwoDepth .contentBox_01 .contentDepthTitle{ font-size:18px; font-weight:bold; color:#000; padding-bottom:7px; }
+            .contentWrap .contentTwoDepth .contentBox_01 .contentDepthSubTitle{ font-size:16px; color:#aaa; font-weight:bold; padding-bottom:17px; }
             .contentWrap .contentTwoDepth .contentBox_01 .contentDepthText{ font-size:14px; color:#666; line-height:26px; }
                 .contentWrap .contentTwoDepth .contentBox_01_01{ background:url('../img/sub/bg_readership03_01.gif') left center no-repeat; }
                 .contentWrap .contentTwoDepth .contentBox_01_02{ background:url('../img/sub/bg_readership03_02.gif') left center no-repeat; }
@@ -347,7 +352,7 @@ table.boardWrite{ width:100%; border-top:1px solid #000; }
 .buttonWrap{ padding:20px 0; }
 .buttonWrap:after{ content:''; display:block; clear:both; }
     .buttonWrap .btnLeft{ float:left; }
-        .buttonWrap .btnLeft a{ margin-right:12px; }
+        .buttonWrap .btnLeft a{ margin-right:10px; }
     .buttonWrap .btnRight{ float:right; }
 
 .buttonCenter{ text-align:center; margin:20px 0 30px; }
