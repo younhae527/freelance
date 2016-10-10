@@ -7,7 +7,7 @@
     .lineMap{ float:right; }
         .lineMap span{ position:relative; display:inline-block; background:url('../img/sub/common/ico_lineMapArrow.gif') right center no-repeat; padding:0 20px 0 15px; font-size:14px; color:#666; cursor:pointer; }
         .lineMap span:last-child{ background:none; padding-right:0; }
-		.lineMap .depth2 { display:none; position:absolute; top:20px; left:0; z-index:999; min-width:150px; padding: 20px 0; border:1px solid #bbbbbb; background:#fff;  }
+		.lineMap .depth2 { display:none; position:absolute; top:20px; left:-108px; z-index:999; min-width:150px; padding: 20px 0; border:1px solid #bbbbbb; background:#fff;  }
 		.lineMap span.on .depth2 { display:block; min-width:200px; }
 		.lineMap span.on .depth2 ul li { font-size:14px; }
 		.lineMap span.on .depth2 ul li a { display:block;padding:9px 0 9px 20px; background:url("../img/common/lineMapHoverBlitOff.png") no-repeat 90% center ; }
@@ -67,7 +67,7 @@
 
 
                     table.tableType01 tbody tr.last th, table.tableType01 tbody tr.last td{ border-bottom:1px solid #999; }
-                p.tableSummary{ font-size:14px; color:#666; margin-bottom:5px; }
+                p.tableSummary{ font-size:14px; color:#0075b5; margin-bottom:5px; background:url('../img/common/ico_bulit_Info.gif') left center no-repeat; padding-left:12px; }
 
     /* 서브_리테일금융총괄본부 */
     .subTab ul { background:#f7f7f7; margin-bottom:30px; padding:25px 15px 25px 30px; }
@@ -179,8 +179,8 @@
                     ul.layerContent_method_list li span{ color:#007db5; padding-right:10px; }
 
     /* 서브_셀프러닝 기타 외부과정 */
-    .selfLearning04_txt{ font-size:16px; color:#666; margin-top:10px; margin-bottom:30px; line-height:20px; }
-    ul.selfLearning04_list{ margin:15px 0 5px; }
+    .selfLearning04_txt{ font-size:16px; color:#666; margin-bottom:30px; line-height:20px; }
+    ul.selfLearning04_list{ margin:5px 0 5px; }
     ul.selfLearning04_list li{ font-size:14px; color:#666; padding-bottom:10px; }
         ul.selfLearning04_list li span{ font-weight:bold; color:#000; padding-right:20px; }
 
