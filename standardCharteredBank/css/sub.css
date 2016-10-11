@@ -42,9 +42,9 @@
                 ul.tabTitle00 li a{ font-size:14px; color:#000; display:block; background:#fff; border:1px solid #e0e2e1; padding:12px 0; text-decoration:none; }
                 ul.tabTitle00 li a.on, ul.tabTitle00 li a:hover{ background:#696a6c; border:1px solid #696a6c; color:#fff; }
 
-        .tabConAll00{ margin-top:13px; position:relative; }
+        .tabConAll00{ position:relative; }
             .tab00{ display:none; }
-                table.tableType01{ width:100%; margin-bottom:26px; border-top:1px solid #000; }
+                table.tableType01{ width:100%; margin-bottom:20px; border-top:1px solid #000; }
                     table.tableType01 thead th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; border-right:1px solid #e0e2e1; padding:18px 0; }
                     table.tableType01 thead th.first, table.tableType01 thead th.last, table.tableType01 tbody th.last, table.tableType01 tbody td.last{ border-right:none; }
                     table.tableType01 tbody th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; padding:18px 0 18px 18px; text-align:left; }
@@ -67,7 +67,7 @@
 
 
                     table.tableType01 tbody tr.last th, table.tableType01 tbody tr.last td{ border-bottom:1px solid #999; }
-                p.tableSummary{ font-size:14px; color:#0075b5; margin-bottom:5px; background:url('../img/common/ico_bulit_Info.gif') left center no-repeat; padding-left:12px; }
+                p.tableSummary{ font-size:14px; color:#0075b5; margin-bottom:8px; background:url('../img/common/ico_bulit_Info.gif') left center no-repeat; padding-left:12px; }
 
     /* 서브_리테일금융총괄본부 */
     .subTab ul { background:#f7f7f7; margin-bottom:30px; padding:25px 15px 25px 30px; }
@@ -77,9 +77,9 @@
     .subTab ul li a:hover, .subTab ul li.on a { color:#007db5; font-weight:bold; text-decoration:none; }
     .subTab ul li a.first { padding-left:0; }
     .subTab ul li a.last { background:none; }
-    .tableTit { float:left; font-size:18px; font-weight:bold; color:#000000; margin-bottom:10px; padding-left:32px; padding-top:20px; padding-bottom:2px; background:url('../img/sub/tableBlit.gif') no-repeat left 21px ; }
+    .tableTit { float:left; font-size:18px; font-weight:bold; color:#000000; margin-bottom:15px; padding-left:32px; padding-top:20px; padding-bottom:2px; background:url('../img/sub/tableBlit.gif') no-repeat left 21px ; }
 
-        table.tabelType02{ width:100%; margin-bottom:26px; border-top:1px solid #000000; }
+        table.tabelType02{ width:100%; margin-bottom:20px; border-top:1px solid #000000; }
             table.tabelType02 tbody th{ font-size:14px; font-weight:bold; color:#000; border-bottom:1px solid #999; padding:18px 0 18px 18px; text-align:left; }
             table.tabelType02 tbody td{ font-size:14px; color:#666; text-align:left;  border-bottom:1px solid #e0e2e1; padding:18px 0 18px 18px; }
                 table.tabelType02 tbody td ul.tableList:after{ content:''; display:block; clear:both; }
@@ -93,7 +93,7 @@
     /* 서브_리더쉽_리더십 목적,포부 */
     .contentWrap h2.contentTitle{ font-size:24px; font-weight:normal; color:#000; padding-bottom:20px; }
     .contentWrap h3.contentSubTitle{ font-size:20px; font-weight:normal; color:#000; }
-    .contentWrap .contentImgWrap{ text-align:center; margin:50px 0; }
+    .contentWrap .contentImgWrap{ text-align:center; }
     .contentWrap .contentTwoDepth{ border-top:1px solid #e0e2e1; }
     .contentWrap .contentTwoDepth:after{ content:''; display:block; clear:both; }
         .contentWrap .contentTwoDepth .contentLeftDepth{ width:500px; float:left; }
@@ -179,20 +179,20 @@
                     ul.layerContent_method_list li span{ color:#007db5; padding-right:10px; }
 
     /* 서브_셀프러닝 기타 외부과정 */
-    .selfLearning04_txt{ font-size:16px; color:#666; margin-bottom:30px; line-height:20px; }
+    .selfLearning04_txt{ font-size:16px; color:#666; line-height:20px; }
     ul.selfLearning04_list{ margin:5px 0 5px; }
-    ul.selfLearning04_list li{ font-size:14px; color:#666; padding-bottom:10px; }
+    ul.selfLearning04_list li{ font-size:16px; color:#666; padding-bottom:10px; }
         ul.selfLearning04_list li span{ font-weight:bold; color:#000; padding-right:20px; }
 
 /*셀프러닝*/
 h4.contmTitle { font-size:18px; font-weight:bold; color:#000; margin-bottom:10px; padding-left:32px; padding-top:20px; padding-bottom:2px; background:url('../img/sub/tableBlit.gif') no-repeat left 21px; }
-.txtStyle01_Mb37 { color:#7a7a7a; font-size:16px; margin-bottom:30px; }
+.txtStyle01_Mb37 { color:#7a7a7a; font-size:16px; }
 .txtStyle01_Mb37.ul { line-height:25px; }
 .txtStyle01_Mb37.ul .depth2 { margin-left:15px; }
 .txtStyle01_Mb37.ul .depth3 {  }
 .txtStyle01_Mb37.ul .depth3 li { text-indent: -108px; padding-left:137px; background:url("../img/sub/blitGray.gif") no-repeat 20px 10px; }
 
-.txtStyle02_Mb37 { color:#7a7a7a; font-size:14px; margin-top:0px; margin-bottom:5px; }
+.txtStyle02_Mb37 { color:#7a7a7a; font-size:16px; margin-top:0px; margin-bottom:5px; }
 
 .txtStyle01_Mb24 { color:#7a7a7a; font-size:14px; margin-top:16px; margin-bottom:24px; }
 .txtStyle01_Mb24.ul { line-height:25px; }
@@ -203,7 +203,7 @@ h4.contmTitle { font-size:18px; font-weight:bold; color:#000; margin-bottom:10px
 .normalTxtBox { line-height:25px; }
 .normalTxtBox02 { line-height:20px; }
 .thUl { line-height:25px; }
-.tableType01.contT { margin-top:14px; }
+.tableType01.contT {  }
 .grayArrowUl {  }
 .grayArrowUl:after { content:""; display:block; clear:both; }
 .grayArrowUl li { float:left; margin-right:17px; padding-right:45px; line-height:18px; padding-bottom:5px; }
@@ -212,9 +212,9 @@ h4.contmTitle { font-size:18px; font-weight:bold; color:#000; margin-bottom:10px
 table.grayArrowT tbody td { border:none; background:url("../img/sub/tableArrow.gif") no-repeat right center; }
 table.grayArrowT tbody td.last { background:none; }
 
-.txtStyle02_Mb40 { margin-bottom:40px; }
+.txtStyle02_Mb40 {}
 .txtStyle02_Mb40 li.tit { padding-left:14px; background:url("../img/sub/blitBlue.gif") no-repeat left center; }
-.txtStyle02_Mb40 li { font-size:16px; padding-left:9px; line-height:24px; background:url("../img/sub/blitGray.gif") no-repeat left center; }
+.txtStyle02_Mb40 li { font-size:16px; padding-left:9px; line-height:25px; background:url("../img/sub/blitGray.gif") no-repeat left center; }
 .txtStyle02_Mb40 li.normal { background:none; padding-left:0; }
 
 .txtStyle02_Mb23 { margin-bottom:10px; }
@@ -224,7 +224,7 @@ table.grayArrowT tbody td.last { background:none; }
 .color0281b6 { color:#0281b6 !important; }
 
 .txtStyle03_Mb20 { margin-bottom:10px; }
-.txtStyle03_Mb20 li { font-size:14px; color:#666; font-weight:normal; padding-left:9px; line-height:25px; }
+.txtStyle03_Mb20 li { font-size:16px; color:#666; font-weight:normal; line-height:25px; }
 .txtStyle03_Mb20 .depth2 { margin-left:5px; }
 
 .tableType03{ width:100%; margin-bottom:26px; border-top:1px solid #000; }
@@ -250,7 +250,7 @@ table.tableType03 tbody td ul.tableList02 li{ width:650px; }
 table.tableType03 tbody td ul.tableList03 li{ clear:both; }
 
 .selfLearning_summary{ font-size:13px; color:#000; padding-bottom:10px; }
-.titleNoneblit { font-size:14px; color:#000; margin-bottom:5px; }
+.titleNoneblit { font-size:16px; color:#000; margin-bottom:5px; }
 
 a.selfLearning_down{ padding-right:60px; background:#007db5 url('../img/sub/common/ico_down.png') 90% center no-repeat; text-decoration:none; }
     a.selfLearning_down:hover{ background:#0067a4 url('../img/sub/common/ico_down.png') 90% center no-repeat; }
@@ -355,7 +355,7 @@ table.boardWrite{ width:100%; border-top:1px solid #000; }
         .buttonWrap .btnLeft a{ margin-right:10px; }
     .buttonWrap .btnRight{ float:right; }
 
-.buttonCenter{ text-align:center; margin:20px 0 30px; }
+.buttonCenter{ text-align:center; margin:60px 0 0; }
     .buttonCenter a{ padding:17px 50px; display:inline-block; background:#007db5; color:#fff; font-size:14px; text-align:center; text-decoration:none; }
         .buttonCenter a:hover{ background:#0067a4; }
 

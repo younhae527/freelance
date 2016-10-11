@@ -115,7 +115,7 @@
 .mt_60{margin-top:60px !important;}
 
 .mb_0{margin-bottom:0 !important;}
-.mb_5{margin-bottom:5px !important;}
+.mb_5{margin-bottom: 10px !important; margin-top: 13px; }
 .mb_10{margin-bottom:10px !important;}
 .mb_15{margin-bottom:15px !important;}
 .mb_20{margin-bottom:20px !important;}
