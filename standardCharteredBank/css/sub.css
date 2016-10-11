@@ -93,7 +93,7 @@
     /* 서브_리더쉽_리더십 목적,포부 */
     .contentWrap h2.contentTitle{ font-size:24px; font-weight:normal; color:#000; padding-bottom:20px; }
     .contentWrap h3.contentSubTitle{ font-size:20px; font-weight:normal; color:#000; }
-    .contentWrap .contentImgWrap{ text-align:center; }
+    .contentWrap .contentImgWrap{ text-align:center; margin:40px 0; }
     .contentWrap .contentTwoDepth{ border-top:1px solid #e0e2e1; }
     .contentWrap .contentTwoDepth:after{ content:''; display:block; clear:both; }
         .contentWrap .contentTwoDepth .contentLeftDepth{ width:500px; float:left; }
