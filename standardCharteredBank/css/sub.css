@@ -381,3 +381,28 @@ table.tableType04{ width:100%; margin-bottom:26px; border-top:1px solid #000; }
     table.tableType04 tbody td.center span.greenBx{ border:1px solid #55a455; color:#55a455; padding:5px; text-align:center; font-size:13px; }
     table.tableType04 tbody td.center span.blueBx{ border:1px solid #006aa6; color:#006aa6; padding:5px; text-align:center; font-size:13px; }
     table.tableType04 tbody tr.last th, table.tableType04 tbody tr.last td{ border-bottom:1px solid #999; }
+
+.calendarWrap{}
+.calendarButtonWrap{ margin-bottom:20px; }
+.calendarButtonWrap:after{ content:''; display:block; clear:both; }
+.calendarButtonWrap-left{ float:left; position:relative; }
+.calendarButtonWrap-left a.today{ font-size:14px; color:#000; width:65px; height:49px; margin-top:30px; text-align:center; line-height:49px; background:#f7f7f7; text-decoration:none; border:1px solid #bebebe; display:inline-block; }
+.calendarButtonWrap-left a.prev{ display:block; position:absolute; left:74px; top:30px; }
+.calendarButtonWrap-left a.next{ display:block; position:absolute; left:127px; top:30px; }
+.calendarButtonWrap-left span{ font-size:24px; color:#000; margin-left:136px; }
+
+.calendarButtonWrap-right{ float:right; }
+.calendarButtonWrap-right .buttonCenter a{ padding:17px 80px 17px 40px; }
+
+.calendarWrap__table tr th{ border-top:1px solid #000; border-bottom:1px solid #999; padding:17px 0; border-right:1px solid #e0e2e1; text-align:center; font-size:14px; color:#000; }
+.calendarWrap__table tr th.first{ border-left:1px solid #e0e2e1; }
+.calendarWrap__table tr td{ width:112px; height:81px; border-top:1px solid #000; border-bottom:1px solid #e0e2e1; padding:18px 14px; border-right:1px solid #e0e2e1; text-align:left; vertical-align:top; position:relative; }
+.calendarWrap__table tr td.first{ border-left:1px solid #e0e2e1; }
+
+.calendarWrap__table tr td a{ font-size:14px; color:#000; display:block; width:112px; height:81px; text-decoration:none; }
+.calendarWrap__table tr td a.selectDay{ border:1px solid #0075b5; background:#f7f7f7; padding:18px 14px; position:absolute; left:0; top:0; width:112px; height:80px; }
+.calendarWrap__table tr td.sunday a{ color:#b50013; }
+.calendarWrap__table tr td a.selectGray{ width:128px; height:24px; line-height:24px; position:absolute; left:0; top:40px; padding-left:15px; color:#fff; text-align:left; background:#939393; }
+.calendarWrap__table tr td a.selectGreen{ width:128px; height:24px; line-height:24px; position:absolute; left:0; top:40px; padding-left:15px; color:#fff; text-align:left; background:#55a354; }
+.calendarWrap__table tr td a.selectlightBlue{ width:128px; height:24px; line-height:24px; position:absolute; left:0; top:40px; padding-left:15px; color:#fff; text-align:left; background:#85b8d7; }
+.calendarWrap__table tr td a.selectBlue{ width:128px; height:24px; line-height:24px; position:absolute; left:0; top:70px; padding-left:15px; color:#fff; text-align:left; background:#0079b2; }
