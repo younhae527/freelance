@@ -1,6 +1,7 @@
 @font-face{
 	font-family:NotoSansCJKkr-Black-Alphabetic;
 	font-style:normal;
+	font-weight:bolder;
 	src:url('Black/NotoSansCJKkr-Black-Alphabetic.ttf'),
 	url('Black/NotoSansCJKkr-Black-Alphabetic.eot'),
 	url('Black/NotoSansCJKkr-Black-Alphabetic.woff') format('woff'),
@@ -10,6 +11,7 @@
 @font-face{
 	font-family:NotoSansCJKkr-Bold-Alphabetic;
 	font-style:normal;
+	font-weight:bold;
 	src:url('Bold/NotoSansCJKkr-Bold-Alphabetic.ttf'),
 	url('Bold/NotoSansCJKkr-Bold-Alphabetic.eot'),
 	url('Bold/NotoSansCJKkr-Bold-Alphabetic.woff') format('woff'),
@@ -19,6 +21,7 @@
 @font-face{
 	font-family:NotoSansCJKkr-DemiLight-Alphabetic;
 	font-style:normal;
+	font-weight:normal;
 	src:url('DemiLight/NotoSansCJKkr-DemiLight-Alphabetic.ttf'),
 	url('DemiLight/NotoSansCJKkr-DemiLight-Alphabetic.eot'),
 	url('DemiLight/NotoSansCJKkr-DemiLight-Alphabetic.woff') format('woff'),
@@ -28,6 +31,7 @@
 @font-face{
 	font-family:NotoSansCJKkr-Light-Alphabetic;
 	font-style:normal;
+	font-weight:300;
 	src:url('Light/NotoSansCJKkr-Light-Alphabetic.ttf'),
 	url('Light/NotoSansCJKkr-Light-Alphabetic.eot'),
 	url('Light/NotoSansCJKkr-Light-Alphabetic.woff') format('woff'),
@@ -37,6 +41,7 @@
 @font-face{
 	font-family:NotoSansCJKkr-Thin-Alphabetic;
 	font-style:normal;
+	font-weight:100;
 	src:url('Thin/NotoSansCJKkr-Thin-Alphabetic.ttf'),
 	url('Thin/NotoSansCJKkr-Thin-Alphabetic.eot'),
 	url('Thin/NotoSansCJKkr-Thin-Alphabetic.woff') format('woff'),
