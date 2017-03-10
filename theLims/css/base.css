@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 /* CSS Document */
 html,body{width:100%;height:100%;}
 html{overflow-y:scroll;}
@@ -24,10 +23,10 @@ a:hover{text-decoration:underline;}
 
 /*기본*/
 #wrap{width:100%;height:100%;}
-#header{position:relative;}
-#container{position:relative}
-#container:after{display:block;clear:both;content:''}
-#footer{}
+#header{position:relative; border-bottom:1px solid #ccc;}
+#container{position:relative;}
+#container:after{display:block;clear:both;content:'';}
+#footer{position:relative;}
 
 /*공통부분*/
 input[type=text], input[type=password] {background:#fff;border:1px solid #c9c9c9;height:20px;padding:0 5px 0 5px;line-height:22px}
