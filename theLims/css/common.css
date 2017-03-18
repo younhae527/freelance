@@ -15,7 +15,7 @@ li.headerInner__gnbBox__gnbBoxInner-list03 a{ padding-right:0; }
 ul.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap{ display:none; position:absolute; left:0; top:77px; background:#fff; z-index:10; }
 li.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list{ margin:0 18px; border-bottom:1px solid #afafaf; }
 li.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list a{ padding:16px 0; font-size:16px; }
-#containerInner{ width:1180px; height:1398px; margin:0 auto; background:#999; }
+#containerInner{ width:1180px; margin:0 auto; }
 
 /* COMMON_FOOTER */
 #footer__footTop{ border-top:1px solid #ccc; }
