@@ -1,6 +1,7 @@
 /* Aplication */
-#aplicationVisualWrap{ width:100%; background:url('../img/sub/bg_website_Visual.gif') left top no-repeat; }
-.aplicationVisualWrap_Inner{ width:1180px; margin:0 auto; padding:60px 0 0 0; }
+#aplicationVisualWrap{ width:100%; background:url('../img/sub/bg_aplication_Visual.gif') left top no-repeat; }
+.aplicationVisualWrap_Inner{ width:1180px; margin:0 auto; padding-top:60px; position:relative; }
+img.aplicationVisual_phone{ position:absolute; right:0; top:95px; }
 .aplicationVisualWrap_Inner-mainTitleWrap{ background:url('../img/sub/bg_website_Visual_titleWrap.gif') left bottom no-repeat; }
 h1.aplicationVisualWrap_Inner-maintitle{ font-size:34px; font-weight:bold; color:#fff; }
 p.aplicationVisualWrap_Inner-maintitle-subText{ padding-bottom:32px; font-size:18px; font-weight:bold; color:#fff; }
@@ -8,10 +9,35 @@ p.aplicationVisualWrap_Inner-maintitle-subText{ padding-bottom:32px; font-size:1
 h2.aplicationVisualWrap_Inner-subTitle{ font-size:28px; font-weight:bold; color:#fff; line-height:40px; }
 p.aplicationVisualWrap_Inner-subtitle-subText{ padding-top:42px; font-size:16px; color:#fff; line-height:32px; }
 
+h3.applicationMainTitle{ padding-top:150px; font-size:28px; font-weight:bold; color:#0277bd; }
+p.applicationMainText{ padding:43px 0 70px;font-size:16px; color:#4d4d4d; line-height:32px; }
+.applicationAppBox:after{ content:''; display:block; clear:both; }
+.applicationAppBox__Inner{ width:580px; float:left; }
+.applicationAppBox__native{ background:url('../img/sub/bg_application_hybridApp.png') left top no-repeat; }
+.applicationAppBox__hybrid{ margin-left:20px; background:url('../img/sub/bg_application_nativeApp.png') left top no-repeat; }
+h4.applicationAppBox__Inner-title{ padding:49px 0 28px 200px; font-size:28px; font-weight:bold; }
+.applicationAppBox__native h4.applicationAppBox__Inner-title{ color:#1e88e5; }
+.applicationAppBox__hybrid h4.applicationAppBox__Inner-title{ color:#e64a19; }
+p.applicationAppBox__Inner-text{ padding:0 0 35px 200px; font-size:16px; color:#4d4d4d; line-height:32px; }
+.applicationAppBox__Inner ul{ padding:0 0 167px 200px; }
+.applicationAppBox__Inner ul li{ padding-left:20px; background:url('../img/sub/common/ico_dotIcon.png') left center no-repeat; font-size:18px; color:#4d4d4d; line-height:32px; }
+
+#newAppTrandWrap{ padding:65px 0 76px; background:#f2f2f2; }
+.newAppTrandWrap__Inner{ width:1180px; margin:0 auto; }
+h3.newAppTrandWrap__Inner-Title{ font-size:28px; font-weight:bold; color:#4d4d4d; }
+.newAppTrandContentWrap{ margin-top:57px; }
+.newAppTrandContentWrap ul:after{ content:''; display:block; clear:both; }
+.newAppTrandContentWrap ul li{ width:380px; float:left; margin-left:20px; }
+.newAppTrandContentWrap ul li.newAppTrandContentWrap_Inner01{ margin-left:0; }
+h4.newAppTrandContentWrap_Inner-title{ margin:28px 0; font-size:22px; font-weight:bold; color:#4d4d4d; }
+.newAppTrandContentWrap ul li.newAppTrandContentWrap_Inner01 h4.newAppTrandContentWrap_Inner-title{ background:url('../img/sub/ico_application_trandTItle01.png') right top no-repeat; }
+.newAppTrandContentWrap ul li.newAppTrandContentWrap_Inner02 h4.newAppTrandContentWrap_Inner-title{ background:url('../img/sub/ico_application_trandTItle02.png') right top no-repeat; }
+.newAppTrandContentWrap ul li.newAppTrandContentWrap_Inner03 h4.newAppTrandContentWrap_Inner-title{ background:url('../img/sub/ico_application_trandTItle02.png') right top no-repeat; }
+p.newAppTrandContentWrap_Inner-text{ font-size:16px; color:#4d4d4d; line-height:32px; }
 
 /* Website */
 #websiteVisualWrap{ width:100%; background:url('../img/sub/bg_website_Visual.gif') left top no-repeat; }
-.websiteVisualWrap_Inner{ width:1180px; margin:0 auto; padding:60px 0 0 0; }
+.websiteVisualWrap_Inner{ width:1180px; margin:0 auto; padding-top:60px; }
 .websiteVisualWrap_Inner-mainTitleWrap{ background:url('../img/sub/bg_website_Visual_titleWrap.gif') left bottom no-repeat; }
 h1.websiteVisualWrap_Inner-maintitle{ font-size:34px; font-weight:bold; color:#fff; }
 p.websiteVisualWrap_Inner-maintitle-subText{ padding-bottom:32px; font-size:18px; font-weight:bold; color:#fff; }
