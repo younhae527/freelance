@@ -14,7 +14,7 @@ li.headerInner__gnbBox__gnbBoxInner-list02 a span{ display:inline-block; padding
 li.headerInner__gnbBox__gnbBoxInner-list03 a{ padding-right:0; }
 ul.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap{ display:none; position:absolute; left:0; top:77px; background:#fff; z-index:10; }
 li.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list{ margin:0 18px; border-bottom:1px solid #afafaf; }
-li.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list a{ padding:16px 0; font-size:16px; }
+li.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list a{ padding:16px 0; font-size:16px; letter-spacing:-1px; }
 #containerInner{ width:1180px; margin:0 auto; }
 
 /* COMMON_FOOTER */
@@ -23,7 +23,6 @@ li.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list a{ padding:16px 0; 
 .footer__footTop__Inner:after{ content:''; display:block; clear:both; }
 .footer__footTop__Inner__logoBox{ float:left; margin-right:95px; }
 .footer__footTop__Inner__logoBox-fLogo{ padding:10px 0 8px; }
-p.footer__footTop__Inner__logoBox-fCEO{ padding-bottom:10px; font-size:16px; color:#4d4d4d; }
 
 .footer__footTop__Inner__contactBox{ float:left; margin-right:130px; }
 .footer__footTop__Inner__contactBox-tel{ padding:15px 0 10px; font-size:14px; color:#4d4d4d; }
@@ -33,6 +32,7 @@ p.footer__footTop__Inner__logoBox-fCEO{ padding-bottom:10px; font-size:16px; col
 .footer__footTop__Inner__addressBox{ float:left; }
 .footer__footTop__Inner__addressBox-seoul{ padding:15px 0 10px; font-size:14px; color:#4d4d4d; }
 .footer__footTop__Inner__addressBox-pangyo{ font-size:14px; color:#4d4d4d; }
+p.footer__footTop__Inner__logoBox-fCEO{ padding-top:10px; font-size:16px; color:#4d4d4d; }
 
 #footer__footBot{ border-top:1px solid #ccc; }
 .footer__footBot__Inner{ width:1180px; margin:0 auto; }

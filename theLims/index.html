@@ -30,31 +30,51 @@
 			<div id="header">
 				<div id="headerInner">
 					<div class="headerInner__logoBox">
-						<a href="javascript:;"><img src="img/common/logo.png" alt="THE Lims" /s></a>
+						<a href="index.html"><img src="img/common/logo.png" alt="THE Lims" /s></a>
 					</div><!--headerInner__logoBox_end-->
 					<div class="headerInner__gnbBox">
 						<ul class="headerInner__gnbBox__gnbBoxInner">
 							<li class="headerInner__gnbBox__gnbBoxInner-list headerInner__gnbBox__gnbBoxInner-list01">
-								<a href="javascript:;">About</a>
+								<a href="sub/about.html">About</a>
 							</li>
 							<li class="headerInner__gnbBox__gnbBoxInner-list headerInner__gnbBox__gnbBoxInner-list02">
 								<a href="javascript:;">Busines<span><img src="img/common/ico_downArrow.png" alt="" /></span></a>
 								<ul class="headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap">
-									<li class="headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list"><a href="javascript">Business software</a></li>
-									<li class="headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list"><a href="javascript">Application</a></li>
-									<li class="headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list"><a href="javascript">Web & Mobile</a></li>
+									<li class="headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list"><a href="sub/software.html">Business software</a></li>
+									<li class="headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list"><a href="sub/application.html">Application</a></li>
+									<li class="headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap-list"><a href="sub/website.html">Web & Mobile</a></li>
 								</ul>
 							</li>
 							<li class="headerInner__gnbBox__gnbBoxInner-list headerInner__gnbBox__gnbBoxInner-list03">
-								<a href="javascript:;">Contact</a>
+								<a href="sub/contact.html">Contact</a>
 							</li>
 						</ul>
 					</div><!--headerInner_end-->
 				</div><!--headerInner_end-->
 			</div><!--header_end-->
 			<div id="container">
+				<div id="mainVisualWrap">
+					<ul class="mainVisual">
+						<li>
+							<img src="img/main/img_mainBanner01.png" alt="" />
+						</li>
+						<li>
+							<img src="img/main/img_mainBanner02.png" alt="" />
+						</li>
+						<li>
+							<img src="img/main/img_mainBanner03.png" alt="" />
+						</li>
+					</ul>
+				</div><!--mainVisualWrap_end-->
 				<div id="containerInner">
-				
+					<div id="mainWrap">
+						<h1>BUSINESS</h1>
+						<ul class="mainWrap__List">
+							<li class="mainWrap__List01"><a href="sub/software.html">업무용 소프트웨어 개발</a></li>
+							<li class="mainWrap__List02"><a href="sub/application.html">어플리케이션 개발</a></li>
+							<li class="mainWrap__List03"><a href="sub/website.html">웹사이트 개발/운영</a></li>
+						</ul>
+					</div><!--mainWrap_end-->
 				</div><!--containerInner_end-->
 			</div><!--container_end-->
 			<div id="footer">
@@ -62,7 +82,6 @@
 					<div class="footer__footTop__Inner">
 						<div class="footer__footTop__Inner__logoBox">
 							<div class="footer__footTop__Inner__logoBox-fLogo"><img src="img/common/fLogo.png" alt="Lims" /></div>
-							<p class="footer__footTop__Inner__logoBox-fCEO">대표자 : 최익환</p>
 						</div><!--footer__footTop__Inner__logoBox_end-->
 						<div class="footer__footTop__Inner__contactBox">
 							<p class="footer__footTop__Inner__contactBox-tel">전화 : 031-8017-6603</p>
@@ -72,6 +91,7 @@
 						<div class="footer__footTop__Inner__addressBox">
 							<p class="footer__footTop__Inner__addressBox-seoul">서울사무소 : 서울특별시 강남구 선릉로 28 일영빌딩 6층</p>
 							<p class="footer__footTop__Inner__addressBox-pangyo">판교연구소 : 경기도 성남시 판교로 393 203-803</p>
+							<p class="footer__footTop__Inner__logoBox-fCEO">대표자 : 최익환</p>
 						</div><!--footer__footTop__Inner__addressBox_end-->
 					</div><!--footer__footTop__Inner_end-->
 				</div><!--footer__footTop_end-->
@@ -89,6 +109,12 @@
 				});
 				$('.headerInner__gnbBox__gnbBoxInner-list02').mouseleave(function(){
 					$(this).children('.headerInner__gnbBox__gnbBoxInner-list02__depth02Wrap').css('display','none');
+				});
+
+				$('.mainVisual').bxSlider({
+					auto: true,
+					nextText:'',
+					prevText:'',
 				});
 			});
 		</script>
