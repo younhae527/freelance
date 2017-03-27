@@ -1,6 +1,6 @@
 /* About */
 #aboutVisualWrap{ width:100%; }
-#aboutVisualWrap img{width:100%;}
+#aboutVisualWrap img{ width:100%; }
 #aboutWrap p{ padding:95px 0; font-size:26px; color:#000; text-align:center; letter-spacing:-1px; }
 #aboutWrap ul.aboutWrap__topList{ width:1005px; margin:0 auto 113px; }
 #aboutWrap ul.aboutWrap__topList li{ padding:0 0 42px 20px; background:url('../img/sub/common/ico_dotIcon.png') left 15px no-repeat; font-size:22px; color:#000; letter-spacing:-1px; }
@@ -16,8 +16,8 @@
 #aboutWrap .aboutWrap___partList div ul li{ padding-bottom:20px; font-size:18px; color:#666; letter-spacing:-1px; }
 
 /* Software */
-#softwareVisualWrap{ width:100%; background:url('../img/sub/bg_software_Visual.gif') left center no-repeat; background-size:100% 100%; }
-.softwareVisualWrap_Inner{ width:1180px; margin:0 auto; padding-top:60px; }
+#softwareVisualWrap{ width:100%; min-width:1200px; background:url('../img/sub/bg_software_Visual.gif') left center no-repeat; }
+.softwareVisualWrap_Inner{ width:1180px; margin:0 auto; padding-top:45px; }
 .softwareVisualWrap_Inner-mainTitleWrap{ background:url('../img/sub/bg_website_Visual_titleWrap.gif') left bottom no-repeat; }
 h1.softwareVisualWrap_Inner-maintitle{ font-size:34px; font-weight:bold; color:#fff; }
 p.softwareVisualWrap_Inner-maintitle-subText{ padding-bottom:32px; font-size:18px; font-weight:bold; color:#fff; }
@@ -26,7 +26,7 @@ h2.softwareVisualWrap_Inner-subTitle{ font-size:28px; font-weight:bold; color:#f
 p.softwareVisualWrap_Inner-subtitle-subText{ padding-top:42px; font-size:16px; color:#fff; line-height:32px; }
 p.softwareVisualWrap_Inner-subtitle-subText01{ padding-top:24px; font-size:18px; color:#e3f2fd; }
 
-#softWareTopContent{ width:100%; padding-top:66px; background:#263238; }
+#softWareTopContent{ width:100%; min-width:1200px; padding-top:66px; background:#263238; }
 .softWareTopContent__Inner{ width:1180px; margin:0 auto; padding-bottom:95px; background:url('../img/sub/bg_softWareTopContentWrap__Inner.gif') right top no-repeat; }
 .softWareTopContent__Inner-titleWrap{ padding-top:52px; background:url('../img/sub/bg_website_Visual_titleWrap.gif') left bottom no-repeat; }
 h3.softWareTopContent__Inner-title{ padding-bottom:56px; font-size:28px; font-weight:bold; color:#fff; }
@@ -60,7 +60,7 @@ p.softWareTopContent__Inner-text{ padding-bottom:33px; font-size:16px; color:#ff
 #softWareWrap ul li.bg_softwareLink12{ background:url('../img/sub/bg_softwareLink12.png') center top no-repeat; }
 
 /* Aplication */
-#aplicationVisualWrap{ width:100%; background:url('../img/sub/bg_aplication_Visual.gif') left center no-repeat; background-size:100% 100%; }
+#aplicationVisualWrap{ width:100%; min-width:1200px; background:url('../img/sub/bg_aplication_Visual.gif') left center no-repeat; }
 .aplicationVisualWrap_Inner{ width:1180px; margin:0 auto; padding-top:60px; position:relative; }
 img.aplicationVisual_phone{ position:absolute; right:0; top:95px; }
 .aplicationVisualWrap_Inner-mainTitleWrap{ background:url('../img/sub/bg_website_Visual_titleWrap.gif') left bottom no-repeat; }
@@ -83,7 +83,7 @@ p.applicationAppBox__Inner-text{ padding:0 0 35px 200px; font-size:16px; color:#
 .applicationAppBox__Inner ul{ padding:0 0 167px 200px; }
 .applicationAppBox__Inner ul li{ padding-left:20px; background:url('../img/sub/common/ico_dotIcon.png') left center no-repeat; font-size:18px; color:#4d4d4d; line-height:32px; }
 
-#newAppTrandWrap{ padding:65px 0 76px; background:#f2f2f2; }
+#newAppTrandWrap{ width:100%; min-width:1200px; padding:65px 0 76px; background:#f2f2f2; }
 .newAppTrandWrap__Inner{ width:1180px; margin:0 auto; }
 h3.newAppTrandWrap__Inner-Title{ font-size:28px; font-weight:bold; color:#4d4d4d; }
 .newAppTrandContentWrap{ margin-top:57px; }
@@ -97,8 +97,8 @@ h4.newAppTrandContentWrap_Inner-title{ margin:28px 0; font-size:22px; font-weigh
 p.newAppTrandContentWrap_Inner-text{ font-size:16px; color:#4d4d4d; line-height:32px; }
 
 /* Website */
-#websiteVisualWrap{ width:100%; background:url('../img/sub/bg_website_Visual.gif') left center no-repeat; background-size:100% 100%; }
-.websiteVisualWrap_Inner{ width:1180px; margin:0 auto; padding-top:60px; }
+#websiteVisualWrap{ width:100%; min-width:1200px; background:url('../img/sub/bg_website_Visual.gif') left center no-repeat; }
+.websiteVisualWrap_Inner{ width:1180px; margin:0 auto; padding-top:45px; }
 .websiteVisualWrap_Inner-mainTitleWrap{ background:url('../img/sub/bg_website_Visual_titleWrap.gif') left bottom no-repeat; }
 h1.websiteVisualWrap_Inner-maintitle{ font-size:34px; font-weight:bold; color:#fff; }
 p.websiteVisualWrap_Inner-maintitle-subText{ padding-bottom:32px; font-size:18px; font-weight:bold; color:#fff; }
@@ -106,7 +106,7 @@ p.websiteVisualWrap_Inner-maintitle-subText{ padding-bottom:32px; font-size:18px
 h2.websiteVisualWrap_Inner-subTitle{ font-size:28px; font-weight:bold; color:#fff; line-height:40px; }
 p.websiteVisualWrap_Inner-subtitle-subText{ padding-top:42px; font-size:16px; color:#fff; line-height:32px; }
 
-#websiteContainerWrap{ width:100%;  background:url('../img/sub/bg_websiteContainer.gif') right 1110px no-repeat; }
+#websiteContainerWrap{ width:100%; min-width:1200px;  background:url('../img/sub/bg_websiteContainer.gif') right 1110px no-repeat; }
 .websiteContentWrap__Inner{ border-bottom:1px solid #ccc; }
 .websiteContentWrap__Inner04{ border-bottom:none; }
 h3.websiteContentWrap__Inner-title{ padding:80px 0 68px 0;font-size:28px; font-weight:bold; color:#0277bd; text-align:center; }
